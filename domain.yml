@@ -1,11 +1,20 @@
 
-version: "3.0"
+version: "3.1"
 intents:
+  - greet
+  - goodbye
   - solicitar_vacaciones
   - obtener_colilla
   - constancia_medica
+  - nlu_fallback
 
 responses:
+  utter_greet:
+    - text: "¡Hola! ¿En qué puedo ayudarte hoy?"
+
+  utter_goodbye:
+    - text: "¡Hasta luego! Si necesitas algo más, no dudes en preguntar."
+
   utter_solicitar_vacaciones:
     - text: "Para solicitar vacaciones, ingresa a la plataforma interna y selecciona la opción 'Solicitudes'. Completa el formulario y espera la aprobación."
 
@@ -14,6 +23,9 @@ responses:
 
   utter_constancia_medica:
     - text: "Para obtener una constancia médica, presenta tu solicitud en el departamento de recursos humanos. Si necesitas más información, consulta el manual de empleados."
+    
+  utter_default:
+    - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 
 session_config:
   session_expiration_time: 60

@@ -1,21 +1,43 @@
 version: "3.1"
 
 nlu:
-- intent: solicitar_vacaciones
-  examples: |
-    - ¿Cómo puedo pedir vacaciones?
-    - ¿Qué debo hacer para solicitar vacaciones?
-    - ¿Cómo se solicitan los días libres?
-    - Quiero pedir vacaciones, ¿qué hago?
-- intent: obtener_colilla
-  examples: |
-    - ¿Dónde puedo descargar mi colilla de pago?
-    - ¿Cómo obtengo mi colilla de pago?
-    - Necesito ver mi recibo de nómina.
-    - Descargar recibo de nómina.
+  - intent: greet
+    examples: |
+      - Hola
+      - ¡Hola!
+      - Buenos días
+      - Buenas tardes
+      - Buenas noches
+      - ¿Cómo estás?
+      - Hey
+      - Hola, ¿qué tal?
+      - Saludos
+  - intent: goodbye
+    examples: |
+      - Adiós
+      - ¡Hasta luego!
+      - Nos vemos
+      - Me despido
+      - Gracias, adiós
+      - Hasta pronto
+      - Chau
+      - Bye
+      - Cuidate      
+  - intent: solicitar_vacaciones
+    examples: |
+      - ¿Cómo puedo pedir vacaciones?
+      - ¿Qué debo hacer para solicitar vacaciones?
+      - ¿Cómo se solicitan los días libres?
+      - Quiero pedir vacaciones, ¿qué hago?
+  - intent: obtener_colilla
+    examples: |
+      - ¿Dónde puedo descargar mi colilla de pago?
+      - ¿Cómo obtengo mi colilla de pago?
+      - Necesito ver mi recibo de nómina.
+      - Descargar recibo de nómina.
 
-- intent: constancia_medica
-  examples: |
-    - ¿Cómo solicito una constancia médica?
-    - Necesito una constancia médica, ¿qué hago?
-    - Pasos para obtener una constancia médica.
+  - intent: constancia_medica
+    examples: |
+      - ¿Cómo solicito una constancia médica?
+      - Necesito una constancia médica, ¿qué hago?
+      - Pasos para obtener una constancia médica.

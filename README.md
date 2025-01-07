@@ -18,6 +18,7 @@ Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
    Instala la biblioteca `psycopg2` para la conexión a bases de datos PostgreSQL:
    ```bash
    pip install psycopg2-binary==2.9.3
+   pip install fire==0.4.0
    ```
 
 4. **Instalar Rasa y Spacy**:  
@@ -40,7 +41,9 @@ Para entrenar el chatbot, ejecute el siguiente comando:
 
 ```bash
 rasa train
+rasa shell
 ```
+![alt text](image.png)
 
 ### 🔴 **Desactivar el entorno virtual**
 

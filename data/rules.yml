@@ -2,12 +2,34 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: Responder a un saludo
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: Responder a una despedida
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Proporcionar información sobre vacaciones
+    steps:
+      - intent: solicitar_vacaciones
+      - action: utter_solicitar_vacaciones
+
+  - rule: Proporcionar información sobre colillas de pago
+    steps:
+      - intent: obtener_colilla
+      - action: utter_obtener_colilla
+
+  - rule: Solicitar constancia médica
+    steps:
+      - intent: constancia_medica
+      - action: utter_constancia_medica
+
+  - rule: Manejo de entradas desconocidas
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default
+
+
