@@ -1,33 +1,19 @@
-version: "3.1"
 
+version: "3.0"
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - solicitar_vacaciones
+  - obtener_colilla
+  - constancia_medica
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_solicitar_vacaciones:
+    - text: "Para solicitar vacaciones, ingresa a la plataforma interna y selecciona la opción 'Solicitudes'. Completa el formulario y espera la aprobación."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_obtener_colilla:
+    - text: "Para descargar tu colilla de pago, accede al portal de empleados, ve a la sección 'Colillas de Pago' y selecciona la fecha correspondiente."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_constancia_medica:
+    - text: "Para obtener una constancia médica, presenta tu solicitud en el departamento de recursos humanos. Si necesitas más información, consulta el manual de empleados."
 
 session_config:
   session_expiration_time: 60
