@@ -1,0 +1,31 @@
+#Modelos generados
+models/
+
+#Bases de datos
+*.db
+*.sqlite
+
+#Archivos de credenciales
+credentials.yml
+endpoints.yml
+
+#Archivos temporales
+pycache/
+*.pyc
+*.pyo
+*.log
+
+#Entorno virtual
+venv/
+env/
+*.env
+
+#Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+#Archivos de Docker
+*.tar
+
+#Logs de Rasa
+logs/
