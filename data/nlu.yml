@@ -22,7 +22,8 @@ nlu:
       - Hasta pronto
       - Chau
       - Bye
-      - Cuidate      
+      - Cuídate
+      - Hasta la próxima    
   - intent: solicitar_vacaciones
     examples: |
       - ¿Cómo puedo pedir vacaciones?
@@ -50,3 +51,16 @@ nlu:
       - clima
       - fjdsjsd
       - adsdacfsdl
+      - cafe
+      - carro
+      - azul
+      - amarillo
+      - ¿qué es el clima?
+      - ¿dónde está la tienda?
+      - ¿Cuál es tu color favorito?
+      - Dime un chiste
+      - ¿Cuántos años tienes?
+      - ¿Cuál es tu película favorita?
+      - camisa
+      - zapato
+

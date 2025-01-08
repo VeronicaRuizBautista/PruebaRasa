@@ -1,30 +1,9 @@
 {
-  "constancia_medica": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "out_of_scope": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "obtener_colilla": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
   "goodbye": {
-    "precision": 1.0,
+    "precision": 0.9090909090909091,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
     "confused_with": {}
   },
   "solicitar_vacaciones": {
@@ -34,6 +13,22 @@
     "support": 4,
     "confused_with": {}
   },
+  "constancia_medica": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9714285714285714,
+    "support": 18,
+    "confused_with": {
+      "goodbye": 1
+    }
+  },
   "greet": {
     "precision": 1.0,
     "recall": 1.0,
@@ -41,23 +36,30 @@
     "support": 9,
     "confused_with": {}
   },
-  "accuracy": 1.0,
-  "macro avg": {
+  "obtener_colilla": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 35
+    "support": 4,
+    "confused_with": {}
+  },
+  "accuracy": 0.9791666666666666,
+  "macro avg": {
+    "precision": 0.9848484848484849,
+    "recall": 0.9907407407407408,
+    "f1-score": 0.9873015873015873,
+    "support": 48
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35
+    "precision": 0.9810606060606061,
+    "recall": 0.9791666666666666,
+    "f1-score": 0.9793650793650794,
+    "support": 48
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35
+    "precision": 0.9791666666666666,
+    "recall": 0.9791666666666666,
+    "f1-score": 0.9791666666666666,
+    "support": 48
   }
 }

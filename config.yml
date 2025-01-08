@@ -20,7 +20,7 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
 - name: FallbackClassifier
-  threshold: 0.3
+  threshold: 0.5
   ambiguity_threshold: 0.1
 
 policies:
@@ -32,7 +32,7 @@ policies:
   # The action will apply if no other action was predicted with
   # a confidence >= core_fallback_threshold
   core_fallback_threshold: 0.4
-  core_fallback_action_name: "utter_out_of_scope"
+  core_fallback_action_name: "action_default_fallback"
   enable_fallback_prediction: true
 # - name: FallbackPolicy
 #   nlu_threshold: 0.4
