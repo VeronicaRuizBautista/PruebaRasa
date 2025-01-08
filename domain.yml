@@ -6,6 +6,10 @@ intents:
   - solicitar_vacaciones
   - obtener_colilla
   - constancia_medica
+  - ask_how_to_submit_request
+  - ask_about_classification
+  - ask_follow_up
+  - ask_about_attaching_files
   - out_of_scope
 
 responses:
@@ -23,7 +27,19 @@ responses:
 
   utter_constancia_medica:
     - text: "Para obtener una constancia médica, presenta tu solicitud en el departamento de recursos humanos. Si necesitas más información, consulta el manual de empleados."
-    
+  
+  utter_how_to_submit_request:
+    - text: "Para enviar un requerimiento, accede al CRM de Solver, haz clic en Gestión Helpdesk, luego en Enviar nuevo requerimiento y llena los campos necesarios."
+  
+  utter_about_classification:
+    - text: "En clasificación puedes seleccionar elementos como base para dos monitores, laptop o reposapiés."
+  
+  utter_follow_up:
+    - text: "Puedes hacer un seguimiento revisando el estado de tu caso: abierto, sin asignar o cerrado."
+  
+  utter_attach_files:
+    - text: "Para adjuntar un archivo, haz clic en la carpeta y selecciona el archivo que deseas subir."
+  
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 

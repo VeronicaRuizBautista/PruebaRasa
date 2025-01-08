@@ -16,6 +16,26 @@ stories:
     - intent: constancia_medica
     - action: utter_constancia_medica
 
+- story: enviar_requerimiento
+  steps:
+  - intent: ask_how_to_submit_request
+  - action: utter_how_to_submit_request
+
+- story: clasificacion_elementos
+  steps:
+  - intent: ask_about_classification
+  - action: utter_about_classification
+
+- story: seguimiento_caso
+  steps:
+  - intent: ask_follow_up
+  - action: utter_follow_up
+
+- story: adjuntar_archivos
+  steps:
+  - intent: ask_about_attaching_files
+  - action: utter_attach_files
+
 - story: Fuera del ámbito
   steps:
     - intent: out_of_scope

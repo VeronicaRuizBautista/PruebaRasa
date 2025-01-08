@@ -43,6 +43,33 @@ nlu:
       - Necesito una constancia médica, ¿qué hago?
       - Pasos para obtener una constancia médica.
 
+  - intent: ask_how_to_submit_request
+    examples: |
+      - ¿Cómo puedo enviar un requerimiento en Solver?
+      - ¿Dónde puedo gestionar elementos ergonómicos?
+      - ¿Qué debo hacer para enviar un nuevo requerimiento?
+      - ¿Cómo hago para enviar un requerimiento en el CRM de Solver?
+
+  - intent: ask_about_classification
+    examples: |
+      - ¿Qué elementos puedo seleccionar en clasificación?
+      - ¿Qué opciones están disponibles en clasificación?
+      - ¿Puedo seleccionar un reposapiés?
+      - ¿Qué elementos ergonómicos están disponibles?
+
+  - intent: ask_follow_up
+    examples: |
+      - ¿Cómo puedo hacer un seguimiento de mi requerimiento?
+      - ¿Puedo revisar si mi caso está abierto?
+      - ¿Cómo verifico si mi caso ya está cerrado?
+      - ¿Cómo sé si mi caso está sin asignar?
+
+  - intent: ask_about_attaching_files
+    examples: |
+      - ¿Puedo adjuntar un archivo al requerimiento?
+      - ¿Cómo adjunto una prueba?
+      - ¿Qué debo hacer para agregar un archivo?
+
   - intent: out_of_scope
     examples: |
       - Quiero pedir comida
@@ -63,4 +90,22 @@ nlu:
       - ¿Cuál es tu película favorita?
       - camisa
       - zapato
+      - verdad
+      - Salsa
+      - ¿Cuál es el sentido de la vida?
+      - ¿Qué opinas de [política/religión/deportes]?
+      - ¿Puedes contarme un chiste?
+      - ¿Crees en Dios?
+      - ¿Qué estás haciendo ahora?
+      - ¿Qué edad tienes?
+      - ¿Cómo programo en Python?
+      - ¿Qué sabes sobre mis amigos?
+      - ¿Qué debo cocinar hoy?
+      - Hackear
+      - Sexo
+      - Política
+      - Religión
+      - Deportes
+      - Criptomonedas
+      - Estúpido
 

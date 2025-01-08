@@ -38,3 +38,22 @@ test_stories:
     - intent: out_of_scope
     - action: utter_out_of_scope
 
+- story: prueba_enviar_requerimiento
+  steps:
+  - intent: ask_how_to_submit_request
+  - action: utter_how_to_submit_request
+
+- story: prueba_clasificacion
+  steps:
+  - intent: ask_about_classification
+  - action: utter_about_classification
+
+- story: prueba_seguimiento
+  steps:
+  - intent: ask_follow_up
+  - action: utter_follow_up
+
+- story: prueba_adjuntar_archivos
+  steps:
+  - intent: ask_about_attaching_files
+  - action: utter_attach_files

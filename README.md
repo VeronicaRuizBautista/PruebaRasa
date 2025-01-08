@@ -1,5 +1,13 @@
 # Configuración del Proyecto para Rasa Chatbot
 
+### Pre-requisitos
+
+Para poder configurar y ejecutar este modelo correctamente necesita:
+- Microsoft Visual C++ Build Tools
+- Python3.8
+- PostgreSQL
+- setuptools==58.0.4
+
 Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
 
 1. **Crear un entorno virtual**:  
