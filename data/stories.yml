@@ -16,4 +16,9 @@ stories:
     - intent: constancia_medica
     - action: utter_constancia_medica
 
+- story: Fuera del ámbito
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+
 

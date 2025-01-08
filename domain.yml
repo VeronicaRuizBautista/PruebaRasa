@@ -6,7 +6,7 @@ intents:
   - solicitar_vacaciones
   - obtener_colilla
   - constancia_medica
-  - nlu_fallback
+  - out_of_scope
 
 responses:
   utter_greet:
@@ -24,7 +24,7 @@ responses:
   utter_constancia_medica:
     - text: "Para obtener una constancia médica, presenta tu solicitud en el departamento de recursos humanos. Si necesitas más información, consulta el manual de empleados."
     
-  utter_default:
+  utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 
 session_config:

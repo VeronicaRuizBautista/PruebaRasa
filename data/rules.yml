@@ -29,7 +29,7 @@ rules:
 
   - rule: Manejo de entradas desconocidas
     steps:
-      - intent: nlu_fallback
-      - action: utter_default
+      - intent: out_of_scope
+      - action: utter_out_of_scope
 
 

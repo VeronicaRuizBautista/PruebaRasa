@@ -41,3 +41,12 @@ nlu:
       - ¿Cómo solicito una constancia médica?
       - Necesito una constancia médica, ¿qué hago?
       - Pasos para obtener una constancia médica.
+
+  - intent: out_of_scope
+    examples: |
+      - Quiero pedir comida
+      - ¿Qué es 2 + 2?
+      - ¿Quién es el presidente de Estados Unidos?7
+      - clima
+      - fjdsjsd
+      - adsdacfsdl

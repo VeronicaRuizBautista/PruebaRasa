@@ -1,91 +1,40 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "3.1"
 
-stories:
-- story: happy path 1
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+test_stories:
 
-- story: happy path 2
+# Prueba de saludo
+- story: Test Saludo
   steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+    - intent: greet
+    - action: utter_greet
 
-- story: sad path 1
+# Prueba de despedida
+- story: Test Despedida
   steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
+    - intent: goodbye
+    - action: utter_goodbye
 
-- story: sad path 2
+# Prueba de solicitud de vacaciones
+- story: Test Solicitar Vacaciones
   steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
+    - intent: solicitar_vacaciones
+    - action: utter_solicitar_vacaciones
 
-- story: sad path 3
+# Prueba de obtención de colilla de pago
+- story: Test Obtener Colilla
   steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+    - intent: obtener_colilla
+    - action: utter_obtener_colilla
 
-- story: say goodbye
+# Prueba de solicitud de constancia médica
+- story: Test Constancia Médica
   steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+    - intent: constancia_medica
+    - action: utter_constancia_medica
 
-- story: bot challenge
+# Prueba de manejo de entradas desconocidas
+- story: Test Entrada Desconocida
   steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+

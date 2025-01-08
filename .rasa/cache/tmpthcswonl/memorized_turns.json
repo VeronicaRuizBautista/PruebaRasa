@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtysEJwDAIQNFVHKATZJVSgogHITVFTS4hu1dob//DO9c+YD3GsyKFdC2wvqiKNxf4p4kHa9rhbGlEc6OA9yYkgVYnElJS9r2vF7beIbM=": "utter_solicitar_vacaciones",
+    "eJyNjEEKgDAMBL+SB/iCfkUkhJBDoEZJ015K/25Bj4LedmB21j4W6KdLQ+LQwxL0e6DRLgkeyFpCbLq1iE9HbWIkKEdW1iDHRkw8VSnjI1kjxPH1+bO/XVjYRyE=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPwlIpxbFJ+fnZObkJNbWxgIAEpwfnA==": "utter_obtener_colilla",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPwlIpxbFJ+fnZObkJNYSMK20pASoGF0TYVNjAUWfQNw=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOT+vuCQxLzkzMT43NSUzObG2NhYAUlIgUw==": "utter_constancia_medica",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOT+vuCQxLzkzMT43NSUzObGWgHmlJSWpRfGY2ogxORYAyj1DAQ==": "action_listen"
+  }
+}
