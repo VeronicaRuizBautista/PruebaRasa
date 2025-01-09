@@ -103,3 +103,23 @@ stories:
   steps:
   - intent: preguntar_seguimiento
   - action: utter_seguimiento
+
+- story: descargar_comprobante
+  steps:
+  - intent: preguntar_como_descargar_comprobante
+  - action: utter_como_descargar_comprobante
+
+- story: informacion_comprobante
+  steps:
+  - intent: preguntar_sobre_informacion_comprobante
+  - action: utter_informacion_comprobante
+
+- story: deducciones_comprobante
+  steps:
+  - intent: preguntar_sobre_deducciones
+  - action: utter_deducciones_comprobante
+
+- story: valor_neto
+  steps:
+  - intent: preguntar_sobre_valor_neto
+  - action: utter_valor_neto

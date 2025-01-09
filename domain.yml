@@ -24,6 +24,10 @@ intents:
   - preguntar_sobre_liderazgo
   - preguntar_adjuntar_archivos
   - preguntar_seguimiento
+  - preguntar_como_descargar_comprobante
+  - preguntar_sobre_informacion_comprobante
+  - preguntar_sobre_deducciones
+  - preguntar_sobre_valor_neto
   - out_of_scope
 
 responses:
@@ -86,6 +90,18 @@ responses:
   
   utter_seguimiento:
     - text: "Puedes dar seguimiento a tus requerimientos revisando si están abiertos, cerrados o sin asignar. Ve a la sección correspondiente para ver el estado de tu solicitud."
+
+  utter_como_descargar_comprobante:
+    - text: "Para descargar tu comprobante de pago, entra a Midasoft, busca tu nómina y descárgala en formato PDF."
+  
+  utter_informacion_comprobante:
+    - text: "El comprobante incluye tu Solvo ID, tu nombre, salario mensual, cargo, cuenta bancaria, conceptos de pago y deducciones, además del valor neto a pagar."
+  
+  utter_deducciones_comprobante:
+    - text: "Las deducciones reflejadas incluyen aportes a salud, pensión u otros conceptos aplicables según tu nómina."
+  
+  utter_valor_neto:
+    - text: "El valor neto a pagar es el monto que finalmente se te deposita después de aplicar todas las deducciones."
 
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"

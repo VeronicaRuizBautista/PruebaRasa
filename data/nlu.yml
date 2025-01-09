@@ -74,6 +74,7 @@ nlu:
       - ¿Dónde veo mis cesantías?
       - Información de mis cesantías
       - ¿Dónde están mis fondos de cesantías?
+      - eps
 
   - intent: novedad_licencia
     examples: |
@@ -173,6 +174,34 @@ nlu:
       - ¿Dónde reviso si mi solicitud está abierta?
       - ¿Cómo sé si mi caso está cerrado o sin asignar?
       - ¿Qué opciones hay para ver el estado de mi solicitud?
+
+  - intent: preguntar_como_descargar_comprobante
+    examples: |
+      - ¿Cómo descargo mi comprobante de pago?
+      - ¿Dónde puedo obtener mi comprobante de nómina?
+      - ¿Cómo puedo acceder al archivo PDF de mi pago?
+      - ¿Qué pasos debo seguir para descargar mi nómina en Midasoft?
+
+  - intent: preguntar_sobre_informacion_comprobante
+    examples: |
+      - ¿Qué información contiene el comprobante de pago?
+      - ¿Qué datos puedo ver en mi nómina descargada?
+      - ¿Qué aparece en la tabla del comprobante de nómina?
+      - ¿Qué datos incluye mi Solvo ID y el valor neto?
+
+  - intent: preguntar_sobre_deducciones
+    examples: |
+      - ¿Qué deducciones se reflejan en mi comprobante?
+      - ¿Qué significa el aporte a salud en el comprobante?
+      - ¿Dónde puedo ver mis aportes a pensión en la nómina?
+      - ¿Qué conceptos aparecen como deducciones?
+
+  - intent: preguntar_sobre_valor_neto
+    examples: |
+      - ¿Dónde puedo ver el valor neto a pagar?
+      - ¿Qué es el valor neto que aparece en el comprobante?
+      - ¿Cómo sé cuánto me depositaron?
+      - ¿Qué significa el valor neto a mi cuenta?
 
   - intent: out_of_scope
     examples: |

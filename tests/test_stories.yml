@@ -109,3 +109,23 @@ test_stories:
   steps:
   - intent: preguntar_seguimiento
   - action: utter_seguimiento
+
+- story: prueba_descargar_comprobante
+  steps:
+  - intent: preguntar_como_descargar_comprobante
+  - action: utter_como_descargar_comprobante
+
+- story: prueba_informacion_comprobante
+  steps:
+  - intent: preguntar_sobre_informacion_comprobante
+  - action: utter_informacion_comprobante
+
+- story: prueba_deducciones_comprobante
+  steps:
+  - intent: preguntar_sobre_deducciones
+  - action: utter_deducciones_comprobante
+
+- story: prueba_valor_neto
+  steps:
+  - intent: preguntar_sobre_valor_neto
+  - action: utter_valor_neto
