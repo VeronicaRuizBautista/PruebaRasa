@@ -78,3 +78,28 @@ stories:
   steps:
   - intent: disponibilidad_de_citas_psicologicas
   - action: utter_disponibilidad_de_citas_psicologicas
+
+- story: montar_requerimiento
+  steps:
+  - intent: preguntar_como_montar_requerimiento
+  - action: utter_como_montar_requerimiento
+
+- story: clasificacion
+  steps:
+  - intent: preguntar_sobre_clasificacion
+  - action: utter_sobre_clasificacion
+
+- story: lideres
+  steps:
+  - intent: preguntar_sobre_liderazgo
+  - action: utter_sobre_liderazgo
+
+- story: adjuntar_archivos
+  steps:
+  - intent: preguntar_adjuntar_archivos
+  - action: utter_adjuntar_archivos
+
+- story: seguimiento
+  steps:
+  - intent: preguntar_seguimiento
+  - action: utter_seguimiento

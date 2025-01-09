@@ -84,3 +84,28 @@ test_stories:
   steps:
   - intent: disponibilidad_de_citas_psicologicas
   - action: utter_disponibilidad_de_citas_psicologicas
+
+- story: prueba_montar_requerimiento
+  steps:
+  - intent: preguntar_como_montar_requerimiento
+  - action: utter_como_montar_requerimiento
+
+- story: prueba_clasificacion
+  steps:
+  - intent: preguntar_sobre_clasificacion
+  - action: utter_sobre_clasificacion
+
+- story: prueba_lideres
+  steps:
+  - intent: preguntar_sobre_liderazgo
+  - action: utter_sobre_liderazgo
+
+- story: prueba_adjuntar_archivos
+  steps:
+  - intent: preguntar_adjuntar_archivos
+  - action: utter_adjuntar_archivos
+
+- story: prueba_seguimiento
+  steps:
+  - intent: preguntar_seguimiento
+  - action: utter_seguimiento
