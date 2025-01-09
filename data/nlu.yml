@@ -117,6 +117,28 @@ nlu:
       - Incapacidad por accidente laboral
       - Maternidad o paternidad
 
+  - intent: preguntar_por_cita_psicologica
+    examples: |
+      - ¿Cómo puedo pedir una cita de acompañamiento psicológico?
+      - ¿Qué debo hacer para solicitar una cita psicológica?
+      - ¿Cómo pido una cita con la profesional en Solvo?
+      - ¿Dónde está la opción para solicitar citas psicológicas?
+      - ¿Cómo puedo agendar una cita en seguridad y salud en el trabajo?
+
+  - intent: citas_psicologicas_gratis
+    examples: |
+      - ¿Cuántas citas gratuitas tengo disponibles?
+      - ¿Cuántas asesorías psicológicas puedo recibir gratis?
+      - ¿Son las citas gratuitas?
+      - ¿Cuántas sesiones gratis incluye el servicio?
+
+  - intent: disponibilidad_de_citas_psicologicas
+    examples: |
+      - ¿Qué pasa si no hay disponibilidad para las citas?
+      - ¿Cuándo se abren las citas?
+      - ¿Qué debo hacer si no hay citas disponibles?
+      - ¿Cómo puedo encontrar un horario disponible?
+
   - intent: out_of_scope
     examples: |
       - Quiero pedir comida

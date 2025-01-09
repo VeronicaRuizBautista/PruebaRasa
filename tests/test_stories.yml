@@ -69,3 +69,18 @@ test_stories:
   steps:
     - intent: tipos_incapacidad
     - action: utter_tipos_incapacidad
+
+- story: prueba_solicitar_cita_psicologica
+  steps:
+  - intent: preguntar_por_cita_psicologica
+  - action: utter_preguntar_por_cita_psicologica
+
+- story: prueba_citas_psicologicas_gratuitas
+  steps:
+  - intent: citas_psicologicas_gratis
+  - action: utter_citas_psicologicas_gratis
+
+- story: prueba_disponibilidad_citas_psicologicas
+  steps:
+  - intent: disponibilidad_de_citas_psicologicas
+  - action: utter_disponibilidad_de_citas_psicologicas

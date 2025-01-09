@@ -16,6 +16,9 @@ intents:
   - novedad_incapacidad
   - tipos_ausencias
   - tipos_incapacidad
+  - preguntar_por_cita_psicologica
+  - citas_psicologicas_gratis
+  - disponibilidad_de_citas_psicologicas
   - out_of_scope
 
 responses:
@@ -54,6 +57,15 @@ responses:
   
   utter_tipos_incapacidad:
     - text: "Los tipos de incapacidad disponibles son: por accidente de trabajo, por enfermedad general, incapacidad de un aprendiz, accidente laboral de un aprendiz, y situación de maternidad o paternidad."
+
+  utter_preguntar_por_cita_psicologica:
+    - text: "Para pedir una cita de acompañamiento psicológico, ve a 'Mis transacciones', luego a 'Seguridad y salud en el trabajo' y selecciona 'Solicitud de citas'. Escoge el tipo de cita, tu ciudad, la sede y la fecha de programación."
+  
+  utter_citas_psicologicas_gratis:
+    - text: "Tienes derecho a cuatro citas gratuitas con la profesional. Después de esas, deberás asumir el costo con una tarifa diferencial."
+  
+  utter_disponibilidad_de_citas_psicologicas:
+    - text: "Las citas se agendan semanalmente. Si no hay disponibilidad, revisa más tarde y permanece pendiente de nuevas aperturas."
 
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"

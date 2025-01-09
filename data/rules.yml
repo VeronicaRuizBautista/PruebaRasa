@@ -66,3 +66,18 @@ rules:
     steps:
       - intent: tipos_incapacidad
       - action: utter_tipos_incapacidad
+
+  - rule: solicitar_cita
+    steps:
+    - intent: preguntar_por_cita_psicologica
+    - action: utter_preguntar_por_cita_psicologica
+
+  - rule: citas_gratuitas
+    steps:
+    - intent: citas_psicologicas_gratis
+    - action: utter_citas_psicologicas_gratis
+
+  - rule: disponibilidad_citas
+    steps:
+    - intent: disponibilidad_de_citas_psicologicas
+    - action: utter_disponibilidad_de_citas_psicologicas
