@@ -1,20 +1,13 @@
 version: "3.1"
 
 stories:
-- story: solicitar vacaciones
-  steps:
-    - intent: solicitar_vacaciones
-    - action: utter_solicitar_vacaciones
 
-- story: obtener colilla
+- story: Conversación con saludo y despedida
   steps:
-    - intent: obtener_colilla
-    - action: utter_obtener_colilla
-
-- story: constancia médica
-  steps:
-    - intent: constancia_medica
-    - action: utter_constancia_medica
+    - intent: greet
+    - action: utter_greet
+    - intent: goodbye
+    - action: utter_goodbye
 
 - story: enviar_requerimiento
   steps:
@@ -41,4 +34,32 @@ stories:
     - intent: out_of_scope
     - action: utter_out_of_scope
 
+- story: Consultar Solvo ID
+  steps:
+    - intent: solvo_id
+    - action: utter_solvo_id
 
+- story: Consultar Seguridad Social y Cesantías
+  steps:
+    - intent: seguridad_social
+    - action: utter_seguridad_social
+
+- story: Consultar Novedad de Licencia
+  steps:
+    - intent: novedad_licencia
+    - action: utter_novedad_licencia
+
+- story: Consultar Novedad de Incapacidad
+  steps:
+    - intent: novedad_incapacidad
+    - action: utter_novedad_incapacidad
+
+- story: Consultar Tipos de Ausencias
+  steps:
+    - intent: tipos_ausencias
+    - action: utter_tipos_ausencias
+
+- story: Consultar Tipos de Incapacidad
+  steps:
+    - intent: tipos_incapacidad
+    - action: utter_tipos_incapacidad

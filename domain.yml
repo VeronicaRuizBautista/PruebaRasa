@@ -10,6 +10,12 @@ intents:
   - ask_about_classification
   - ask_follow_up
   - ask_about_attaching_files
+  - solvo_id
+  - seguridad_social
+  - novedad_licencia
+  - novedad_incapacidad
+  - tipos_ausencias
+  - tipos_incapacidad
   - out_of_scope
 
 responses:
@@ -19,15 +25,6 @@ responses:
   utter_goodbye:
     - text: "¡Hasta luego! Si necesitas algo más, no dudes en preguntar."
 
-  utter_solicitar_vacaciones:
-    - text: "Para solicitar vacaciones, ingresa a la plataforma interna y selecciona la opción 'Solicitudes'. Completa el formulario y espera la aprobación."
-
-  utter_obtener_colilla:
-    - text: "Para descargar tu colilla de pago, accede al portal de empleados, ve a la sección 'Colillas de Pago' y selecciona la fecha correspondiente."
-
-  utter_constancia_medica:
-    - text: "Para obtener una constancia médica, presenta tu solicitud en el departamento de recursos humanos. Si necesitas más información, consulta el manual de empleados."
-  
   utter_how_to_submit_request:
     - text: "Para enviar un requerimiento, accede al CRM de Solver, haz clic en Gestión Helpdesk, luego en Enviar nuevo requerimiento y llena los campos necesarios."
   
@@ -39,12 +36,32 @@ responses:
   
   utter_attach_files:
     - text: "Para adjuntar un archivo, haz clic en la carpeta y selecciona el archivo que deseas subir."
+
+  utter_solvo_id:
+    - text: "Así como tienes una cédula de ciudadanía que te identifica frente al estado, en Solvo también tenemos algo llamado Solvo ID. Este será una serial que te identificará dentro de la empresa como un empleado o un solver. Si quieres conocer cuál es tu Solvo ID, puedes ingresar a Midasoft y en la esquina superior derecha debajo de tu cédula vas a encontrar este número."
+
+  utter_seguridad_social:
+    - text: "Si deseas ver dónde está la información respecto a tu seguridad social, ingresa a Midasoft y en 'Mis Datos', dándole clic a 'Información Seguridad Social', vas a poder encontrar todo lo relacionado con tu pensión, tu ARL y tu EPS. Si deseas ver dónde están tus cesantías, puedes regresar y donde dice 'Fondo de Cesantías' encontrarás el dato que necesitas."
+
+  utter_novedad_licencia:
+    - text: "Si deseas reportar la novedad sobre una licencia remunerada o no remunerada, en Midasoft debes ir a 'Mis transacciones' y en 'Solicitudes nómina' seleccionar la opción 'Solicitud de permiso'. Aquí tendrás disponibles los permisos y licencias remuneradas o no remuneradas. Debes justificar la ausencia, seleccionar la licencia correspondiente, ingresar las fechas y adjuntar el documento necesario, esto lo puedes hacer dando clic en examinar. Agregas el documento. Y cuando ya esté adjunto, solo le das clic en aceptar y llegará la novedad a tu líder."
+
+  utter_novedad_incapacidad:
+    - text: "Si deseas informar a tu líder sobre una incapacidad, en Midasoft debes ir a 'Mis transacciones', seleccionar 'Solicitudes nómina' y luego 'Solicitud de incapacidades'. Completa la información requerida, como tipo de incapacidad, fecha inicial de la misma y los días que indica tu incapacidad, lugar de expedición y código de enfermedad. Cuando agregas un código te va a desplegar diferentes opciones de enfermedades y tú debes seleccionar la que se ajusta a tu situación. También tienes una opción de agregar observaciones. Adicionalmente dando clic en examinar podrás adjuntar los documentos obligatorios como el soporte de incapacidad, y si tienes la epicrisis o historia clínica también. Cuando ya tienes todo listo, simplemente le das clic en guardar y esta novedad será reportada a tu líder y a novedades nómina."
+
+  utter_tipos_ausencias:
+    - text: "Los tipos de ausencias disponibles son: licencia por calamidad, licencia de luto, licencia de matrimonio, día de la familia, flex y solvo."  
   
+  utter_tipos_incapacidad:
+    - text: "Los tipos de incapacidad disponibles son: por accidente de trabajo, por enfermedad general, incapacidad de un aprendiz, accidente laboral de un aprendiz, y situación de maternidad o paternidad."
+
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 
 actions:
   - action_default_fallback
+
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

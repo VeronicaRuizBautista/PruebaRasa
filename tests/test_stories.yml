@@ -14,24 +14,6 @@ test_stories:
     - intent: goodbye
     - action: utter_goodbye
 
-# Prueba de solicitud de vacaciones
-- story: Test Solicitar Vacaciones
-  steps:
-    - intent: solicitar_vacaciones
-    - action: utter_solicitar_vacaciones
-
-# Prueba de obtención de colilla de pago
-- story: Test Obtener Colilla
-  steps:
-    - intent: obtener_colilla
-    - action: utter_obtener_colilla
-
-# Prueba de solicitud de constancia médica
-- story: Test Constancia Médica
-  steps:
-    - intent: constancia_medica
-    - action: utter_constancia_medica
-
 # Prueba de manejo de entradas desconocidas
 - story: Test Entrada Desconocida
   steps:
@@ -57,3 +39,33 @@ test_stories:
   steps:
   - intent: ask_about_attaching_files
   - action: utter_attach_files
+
+- story: Probar manejo del Solvo ID
+  steps:
+    - intent: solvo_id
+    - action: utter_solvo_id
+
+- story: Probar manejo de Seguridad Social y Cesantías
+  steps:
+    - intent: seguridad_social
+    - action: utter_seguridad_social
+
+- story: Probar manejo de Novedad de Licencia
+  steps:
+    - intent: novedad_licencia
+    - action: utter_novedad_licencia
+
+- story: Probar manejo de Novedad de Incapacidad
+  steps:
+    - intent: novedad_incapacidad
+    - action: utter_novedad_incapacidad
+
+- story: Probar manejo de Tipos de Ausencias
+  steps:
+    - intent: tipos_ausencias
+    - action: utter_tipos_ausencias
+
+- story: Probar manejo de Tipos de Incapacidad
+  steps:
+    - intent: tipos_incapacidad
+    - action: utter_tipos_incapacidad

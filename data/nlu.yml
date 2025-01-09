@@ -23,25 +23,7 @@ nlu:
       - Chau
       - Bye
       - Cuídate
-      - Hasta la próxima    
-  - intent: solicitar_vacaciones
-    examples: |
-      - ¿Cómo puedo pedir vacaciones?
-      - ¿Qué debo hacer para solicitar vacaciones?
-      - ¿Cómo se solicitan los días libres?
-      - Quiero pedir vacaciones, ¿qué hago?
-  - intent: obtener_colilla
-    examples: |
-      - ¿Dónde puedo descargar mi colilla de pago?
-      - ¿Cómo obtengo mi colilla de pago?
-      - Necesito ver mi recibo de nómina.
-      - Descargar recibo de nómina.
-
-  - intent: constancia_medica
-    examples: |
-      - ¿Cómo solicito una constancia médica?
-      - Necesito una constancia médica, ¿qué hago?
-      - Pasos para obtener una constancia médica.
+      - Hasta la próxima
 
   - intent: ask_how_to_submit_request
     examples: |
@@ -69,6 +51,71 @@ nlu:
       - ¿Puedo adjuntar un archivo al requerimiento?
       - ¿Cómo adjunto una prueba?
       - ¿Qué debo hacer para agregar un archivo?
+
+  - intent: solvo_id
+    examples: |
+      - ¿Qué es el Solvo ID?
+      - ¿Dónde puedo encontrar mi Solvo ID?
+      - Quiero saber mi Solvo ID
+      - ¿Qué significa Solvo ID?
+      - Dime más sobre el Solvo ID
+      - ¿Cómo puedo obtener mi Solvo ID?
+      - Explícame qué es el Solvo ID
+      - ¿Para qué sirve el Solvo ID?
+      - ¿Dónde está mi Solvo ID en Midasoft?
+
+  - intent: seguridad_social
+    examples: |
+      - ¿Dónde puedo ver mi seguridad social?
+      - Quiero ver mi pensión y EPS
+      - Información sobre mi ARL
+      - ¿Cómo veo mi información de seguridad social?
+      - Seguridad social
+      - ¿Dónde veo mis cesantías?
+      - Información de mis cesantías
+      - ¿Dónde están mis fondos de cesantías?
+
+  - intent: novedad_licencia
+    examples: |
+      - ¿Cómo reporto una licencia?
+      - Quiero reportar una novedad de licencia
+      - Información sobre licencias remuneradas
+      - ¿Qué hago para justificar una licencia por calamidad?
+      - ¿Dónde reporto mis permisos y licencias no remuneradas?
+      - Necesito reportar una ausencia
+      - ¿Cómo adjunto un documento para mi licencia?
+      - ¿Qué información debo incluir para reportar un permiso?
+
+  - intent: novedad_incapacidad
+    examples: |
+      - ¿Cómo informo una incapacidad?
+      - Quiero reportar una novedad de incapacidad
+      - Información sobre incapacidades
+      - ¿Dónde ingreso los datos de una incapacidad?
+      - ¿Cómo reporto un accidente de trabajo?
+      - Quiero registrar una incapacidad por enfermedad general
+      - ¿Cómo adjunto documentos para una incapacidad?
+      - ¿Dónde puedo reportar mi incapacidad?
+
+  - intent: tipos_ausencias
+    examples: |
+      - ¿Cuáles son los tipos de ausencias disponibles?
+      - ¿Qué tipos de licencias existen?
+      - ¿Qué opciones de ausencia hay?
+      - Tipos de ausencias
+      - ¿Qué opciones hay para licencia por luto?
+      - Licencia de matrimonio
+      - Día de la familia
+
+  - intent: tipos_incapacidad
+    examples: |
+      - ¿Cuáles son los tipos de incapacidad disponibles?
+      - ¿Qué tipos de incapacidades existen?
+      - Tipos de incapacidad
+      - Opciones de incapacidad
+      - Incapacidad por enfermedad general
+      - Incapacidad por accidente laboral
+      - Maternidad o paternidad
 
   - intent: out_of_scope
     examples: |
