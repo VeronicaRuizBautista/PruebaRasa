@@ -66,3 +66,12 @@ class ActionMultipleQuestions(Action):
         dispatcher.utter_message(text=response)
 
         return []
+    
+
+class ActionInitialGreet(Action):
+    def name(self) -> str:
+        return "action_initial_greet"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker, domain):
+        dispatcher.utter_message(text="¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?")
+        return []
