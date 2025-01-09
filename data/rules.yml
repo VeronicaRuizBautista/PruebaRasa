@@ -107,16 +107,6 @@ rules:
     - intent: preguntar_seguimiento
     - action: utter_seguimiento
 
-  - rule: respuesta_saludo
-    steps:
-    - intent: saludar
-    - action: utter_saludo
-
-  - rule: respuesta_despedida
-    steps:
-    - intent: despedirse
-    - action: utter_despedida
-
   - rule: descargar_comprobante
     steps:
     - intent: preguntar_como_descargar_comprobante
@@ -136,3 +126,23 @@ rules:
     steps:
     - intent: preguntar_sobre_valor_neto
     - action: utter_valor_neto
+
+  - rule: revisar_comprobante
+    steps:
+    - intent: preguntar_como_revisar_comprobante
+    - action: utter_como_revisar_comprobante
+
+  - rule: descargar_comprobante
+    steps:
+    - intent: preguntar_descargar_comprobante
+    - action: utter_descargar_comprobante
+
+  - rule: enviar_comprobante_correo
+    steps:
+    - intent: preguntar_enviar_comprobante_correo
+    - action: utter_enviar_comprobante_correo
+
+  - rule: seleccionar_periodo
+    steps:
+    - intent: preguntar_periodo_comprobante
+    - action: utter_seleccionar_periodo

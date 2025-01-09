@@ -28,6 +28,10 @@ intents:
   - preguntar_sobre_informacion_comprobante
   - preguntar_sobre_deducciones
   - preguntar_sobre_valor_neto
+  - preguntar_como_revisar_comprobante
+  - preguntar_descargar_comprobante
+  - preguntar_enviar_comprobante_correo
+  - preguntar_periodo_comprobante
   - out_of_scope
 
 responses:
@@ -102,6 +106,18 @@ responses:
   
   utter_valor_neto:
     - text: "El valor neto a pagar es el monto que finalmente se te deposita después de aplicar todas las deducciones."
+
+  utter_como_revisar_comprobante:
+    - text: "Para revisar tu comprobante de pago, ve a 'Mis certificaciones' y haz clic en 'Comprobante de nómina'. Selecciona el periodo que deseas consultar."
+  
+  utter_descargar_comprobante:
+    - text: "Para descargar tu comprobante, selecciona el periodo deseado y haz clic en 'Descargar archivo'. El archivo PDF estará disponible automáticamente."
+  
+  utter_enviar_comprobante_correo:
+    - text: "Puedes enviar tu comprobante a tu correo seleccionando el periodo y haciendo clic en 'Enviar al correo electrónico'."
+  
+  utter_seleccionar_periodo:
+    - text: "En 'Mis certificaciones', selecciona el periodo que deseas consultar. Por ejemplo, el primer pago de mayo, y luego descarga o envía el comprobante."
 
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"

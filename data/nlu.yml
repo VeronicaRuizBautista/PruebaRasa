@@ -203,6 +203,34 @@ nlu:
       - ¿Cómo sé cuánto me depositaron?
       - ¿Qué significa el valor neto a mi cuenta?
 
+  - intent: preguntar_como_revisar_comprobante
+    examples: |
+      - ¿Cómo reviso dónde está mi comprobante de pago?
+      - ¿Dónde puedo encontrar mi comprobante de nómina?
+      - ¿Qué pasos debo seguir para revisar mi comprobante?
+      - ¿Cómo encuentro mi desprendible de nómina?
+
+  - intent: preguntar_descargar_comprobante
+    examples: |
+      - ¿Cómo descargo mi comprobante de nómina?
+      - ¿Qué debo hacer para descargar mi comprobante?
+      - ¿Cómo obtengo mi desprendible en formato PDF?
+      - ¿Puedo descargar mi colilla de pago desde el sistema?
+
+  - intent: preguntar_enviar_comprobante_correo
+    examples: |
+      - ¿Cómo envío mi comprobante a mi correo electrónico?
+      - ¿Puedo enviar mi desprendible por correo?
+      - ¿Qué pasos sigo para mandar el comprobante a mi email?
+      - ¿Se puede compartir el archivo al correo directamente?
+
+  - intent: preguntar_periodo_comprobante
+    examples: |
+      - ¿Cómo selecciono el periodo de mi comprobante?
+      - ¿Qué hago si quiero ver un comprobante de otro mes?
+      - ¿Cómo elijo un periodo específico de nómina?
+      - ¿Dónde selecciono el primer pago de mayo?
+
   - intent: out_of_scope
     examples: |
       - Quiero pedir comida
