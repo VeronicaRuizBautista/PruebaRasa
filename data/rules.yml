@@ -146,3 +146,8 @@ rules:
     steps:
     - intent: preguntar_periodo_comprobante
     - action: utter_seleccionar_periodo
+
+  - rule: Manejar preguntas múltiples
+    steps:
+      - intent: multiple_questions
+      - action: action_multiple_questions

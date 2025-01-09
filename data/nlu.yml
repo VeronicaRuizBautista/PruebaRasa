@@ -231,6 +231,14 @@ nlu:
       - ¿Cómo elijo un periodo específico de nómina?
       - ¿Dónde selecciono el primer pago de mayo?
 
+  - intent: multiple_questions
+    examples: |
+      - ¿Qué tipos de licencias hay? ¿Cómo reporto una licencia?
+      - ¿Cuáles son las incapacidades disponibles? ¿Cómo solicito una licencia?
+      - ¿Qué tipos de permisos existen? ¿Qué hago para reportar una licencia?
+      - ¿Cómo reporto una licencia? ¿Qué tipos de licencias existen?
+
+
   - intent: out_of_scope
     examples: |
       - Quiero pedir comida

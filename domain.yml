@@ -3,9 +3,6 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - solicitar_vacaciones
-  - obtener_colilla
-  - constancia_medica
   - ask_how_to_submit_request
   - ask_about_classification
   - ask_follow_up
@@ -124,6 +121,7 @@ responses:
 
 actions:
   - action_default_fallback
+  - action_multiple_questions
 
   
 session_config:
