@@ -147,27 +147,6 @@ nlu:
       - ¿Cómo puedo pedir ayuda al Wolfpack?
       - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?
 
-  - intent: preguntar_sobre_clasificacion
-    examples: |
-      - ¿Qué tipos de clasificación hay disponibles?
-      - ¿Qué opciones aparecen en clasificación?
-      - ¿Cómo selecciono un certificado con funciones?
-      - ¿Qué opciones aparecen según el tipo inicial?
-
-  - intent: preguntar_sobre_liderazgo
-    examples: |
-      - ¿Qué significa que una solicitud sea solo para líderes?
-      - ¿Quiénes pueden enviar solicitudes solo para líderes?
-      - ¿Qué hago si no tengo un puesto de liderazgo?
-      - ¿Qué tipos de posiciones califican como liderazgo?
-
-  - intent: preguntar_adjuntar_archivos
-    examples: |
-      - ¿Cómo adjunto un archivo al requerimiento?
-      - ¿Es necesario adjuntar documentos?
-      - ¿Dónde subo los archivos para mi solicitud?
-      - ¿Cómo uso el botón de la carpeta?
-
   - intent: preguntar_seguimiento
     examples: |
       - ¿Cómo hago el seguimiento de mi requerimiento?
