@@ -76,9 +76,7 @@ class ActionMultipleQuestions(Action):
                 if clave in pregunta.lower():
                     respuestas.append(respuesta)
                     break
-                else:
-                    respuestas.append("Lo siento, no entendí la pregunta: " + pregunta)
-
+                
         # Responder con todas las respuestas
         response = "\n\n".join(respuestas)
         dispatcher.utter_message(text=response)

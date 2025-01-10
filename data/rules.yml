@@ -24,8 +24,8 @@ rules:
 
   - rule: enviar_requerimiento
     steps:
-    - intent: ask_how_to_submit_request
-    - action: utter_how_to_submit_request
+    - intent: preguntar_como_enviar_requerimiento
+    - action: utter_enviar_requerimiento
 
   - rule: clasificacion_elementos
     steps:
@@ -34,13 +34,8 @@ rules:
 
   - rule: seguimiento_caso
     steps:
-    - intent: ask_follow_up
-    - action: utter_follow_up
-
-  - rule: adjuntar_archivos
-    steps:
-    - intent: ask_about_attaching_files
-    - action: utter_attach_files
+    - intent: preguntar_por_seguimiento_requerimiento
+    - action: utter_seguimiento_requerimiento
 
   - rule: Manejo de Solvo ID
     steps:
