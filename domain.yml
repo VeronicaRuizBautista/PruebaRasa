@@ -3,10 +3,9 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - ask_how_to_submit_request
-  - ask_about_classification
-  - ask_follow_up
-  - ask_about_attaching_files
+  - preguntar_como_enviar_requerimiento
+  - preguntar_por_clasificacion_ergonomica
+  - preguntar_por_seguimiento_requerimiento
   - solvo_id
   - seguridad_social
   - novedad_licencia
@@ -35,18 +34,15 @@ responses:
   utter_goodbye:
     - text: "¡Hasta luego! Si necesitas algo más, no dudes en preguntar."
 
-  utter_how_to_submit_request:
+  utter_enviar_requerimiento:
     - text: "Para enviar un requerimiento, accede al CRM de Solver, haz clic en Gestión Helpdesk, luego en Enviar nuevo requerimiento y llena los campos necesarios."
   
-  utter_about_classification:
+  utter_clasificacion_ergonomica:
     - text: "En clasificación puedes seleccionar elementos como base para dos monitores, laptop o reposapiés."
   
-  utter_follow_up:
+  utter_seguimiento_requerimiento:
     - text: "Puedes hacer un seguimiento revisando el estado de tu caso: abierto, sin asignar o cerrado."
   
-  utter_attach_files:
-    - text: "Para adjuntar un archivo, haz clic en la carpeta y selecciona el archivo que deseas subir."
-
   utter_solvo_id:
     - text: "Así como tienes una cédula de ciudadanía que te identifica frente al estado, en Solvo también tenemos algo llamado Solvo ID. Este será una serial que te identificará dentro de la empresa como un empleado o un solver. Si quieres conocer cuál es tu Solvo ID, puedes ingresar a Midasoft y en la esquina superior derecha debajo de tu cédula vas a encontrar este número."
 

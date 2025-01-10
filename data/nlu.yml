@@ -25,32 +25,26 @@ nlu:
       - Cuídate
       - Hasta la próxima
 
-  - intent: ask_how_to_submit_request
+  - intent: preguntar_como_enviar_requerimiento
     examples: |
       - ¿Cómo puedo enviar un requerimiento en Solver?
       - ¿Dónde puedo gestionar elementos ergonómicos?
       - ¿Qué debo hacer para enviar un nuevo requerimiento?
       - ¿Cómo hago para enviar un requerimiento en el CRM de Solver?
 
-  - intent: ask_about_classification
+  - intent: preguntar_por_clasificacion_ergonomica
     examples: |
-      - ¿Qué elementos puedo seleccionar en clasificación?
+      - ¿Qué elementos ergonomicos puedo seleccionar en clasificación?
       - ¿Qué opciones están disponibles en clasificación?
       - ¿Puedo seleccionar un reposapiés?
       - ¿Qué elementos ergonómicos están disponibles?
 
-  - intent: ask_follow_up
+  - intent: preguntar_por_seguimiento_requerimiento
     examples: |
       - ¿Cómo puedo hacer un seguimiento de mi requerimiento?
       - ¿Puedo revisar si mi caso está abierto?
       - ¿Cómo verifico si mi caso ya está cerrado?
       - ¿Cómo sé si mi caso está sin asignar?
-
-  - intent: ask_about_attaching_files
-    examples: |
-      - ¿Puedo adjuntar un archivo al requerimiento?
-      - ¿Cómo adjunto una prueba?
-      - ¿Qué debo hacer para agregar un archivo?
 
   - intent: solvo_id
     examples: |

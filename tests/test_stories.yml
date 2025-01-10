@@ -22,23 +22,18 @@ test_stories:
 
 - story: prueba_enviar_requerimiento
   steps:
-  - intent: ask_how_to_submit_request
-  - action: utter_how_to_submit_request
+  - intent: preguntar_como_enviar_requerimiento
+  - action: utter_enviar_requerimiento
 
 - story: prueba_clasificacion
   steps:
-  - intent: ask_about_classification
-  - action: utter_about_classification
+  - intent: preguntar_por_clasificacion_ergonomica
+  - action: utter_clasificacion_ergonomica
 
 - story: prueba_seguimiento
   steps:
-  - intent: ask_follow_up
-  - action: utter_follow_up
-
-- story: prueba_adjuntar_archivos
-  steps:
-  - intent: ask_about_attaching_files
-  - action: utter_attach_files
+  - intent: preguntar_por_seguimiento_requerimiento
+  - action: utter_seguimiento_requerimiento
 
 - story: Probar manejo del Solvo ID
   steps:

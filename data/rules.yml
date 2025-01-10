@@ -29,8 +29,8 @@ rules:
 
   - rule: clasificacion_elementos
     steps:
-    - intent: ask_about_classification
-    - action: utter_about_classification
+    - intent: preguntar_por_clasificacion_ergonomica
+    - action: utter_clasificacion_ergonomica
 
   - rule: seguimiento_caso
     steps:
