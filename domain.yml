@@ -25,6 +25,7 @@ intents:
   - preguntar_descargar_comprobante
   - preguntar_enviar_comprobante_correo
   - preguntar_periodo_comprobante
+  - multiple_questions
   - out_of_scope
 
 responses:

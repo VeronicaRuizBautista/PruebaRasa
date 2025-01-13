@@ -24,6 +24,7 @@ nlu:
       - Bye
       - Cuídate
       - Hasta la próxima
+      - adios
 
   - intent: preguntar_como_enviar_requerimiento
     examples: |
@@ -206,19 +207,29 @@ nlu:
 
   - intent: multiple_questions
     examples: |
-      - ¿Como puedo enviar un requerimiento en Solvo? ¿Que elementos ergonomicos puedo seleccionar en clasificacion?
-      - ¿Como puedo hacer un seguimiento de mi requerimiento? ¿Que es el solvo ID?
-      - ¿Qué tipos de licencias hay? ¿Cómo reporto una licencia?
-      - ¿Cuáles son las incapacidades disponibles? ¿Cómo solicito una licencia?
-      - ¿Qué tipos de permisos existen? ¿Qué hago para reportar una licencia?
+      - ¿solvo id? ¿seguridad social?
       - ¿Cómo reporto una licencia? ¿Qué tipos de licencias existen?
-      - ¿Como pido una cita con la profesional en Solvo? ¿Son las citas gratuitas?
-      - ¿Que debo hacer si no hay citas disponibles? ¿Cuantas citas gratuitas tengo disponibles?
-      - ¿Como monto un requerimiento en el CRM? ¿Donde reviso si mi solicitud esta abierta?
-      - ¿Como descargo mi comprobante de pago? ¿Que datos puedo ver en mi nomina descargada?
-      - ¿Que deducciones se reflejan en mi comprobante? ¿Como se cuanto me depositaron?
-      - ¿Como reviso donde esta mi comprobante de pago? ¿Que debo hacer para descargar mi comprobante?
-      - ¿Como envio mi comprobante a mi correo electronico? ¿Como selecciono el periodo de mi comprobante?
+      - ¿Cómo enviar un requerimiento? ¿Qué es la clasificación ergonómica?
+      - ¿Cómo hacer seguimiento de un requerimiento? ¿Qué es el Solvo ID?
+      - ¿Dónde encontrar información sobre seguridad social? ¿Cómo reporto una licencia?
+      - ¿Qué tipos de licencias existen? ¿Qué tipos de incapacidad hay?
+      - ¿Cómo pedir una cita psicológica? ¿Las citas psicológicas son gratis?
+      - ¿Hay disponibilidad de citas psicológicas? ¿Cómo montar un requerimiento?
+      - ¿Cómo descargar un comprobante? ¿Qué información incluye un comprobante?
+      - ¿Qué deducciones se reflejan en el comprobante? ¿Qué es el valor neto?
+      - ¿Cómo revisar un comprobante? ¿Cómo enviar un comprobante por correo?
+      - ¿Cómo seleccionar el periodo de un comprobante? ¿Cómo enviar un requerimiento?
+      - ¿Que puedo seleccionar en la clasificación ergonómica? ¿Cómo hacer seguimiento de un requerimiento?
+      - ¿Qué es el Solvo ID? ¿Dónde encuentro información sobre seguridad social?
+      - ¿Cómo reporto una licencia? ¿Qué tipos de licencias existen?
+      - ¿Qué tipos de incapacidad hay? ¿Cómo pedir una cita psicológica?
+      - ¿Las citas psicológicas son gratis? ¿Hay disponibilidad de citas psicológicas?
+      - ¿Cómo montar un requerimiento? ¿Cómo descargar un comprobante?
+      - ¿Qué información incluye un comprobante? ¿Qué deducciones se reflejan en el comprobante?
+      - ¿Qué es el valor neto? ¿Cómo revisar un comprobante?
+      - ¿Cómo enviar un comprobante por correo? ¿Cómo seleccionar el periodo de un comprobante?
+      - ¿Cómo enviar un requerimiento? ¿Qué es el Solvo ID?
+
 
   - intent: out_of_scope
     examples: |
