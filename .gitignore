@@ -9,6 +9,9 @@ models/
 credentials.yml
 endpoints.yml
 
+#modelo
+flan-t5-base
+
 #Archivos temporales
 pycache/
 *.pyc

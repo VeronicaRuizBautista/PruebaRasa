@@ -1,91 +1,163 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: greet
+    examples: |
+      - Hola
+      - ¡Hola!
+      - Buenos días
+      - Buenas tardes
+      - Buenas noches
+      - ¿Cómo estás?
+      - Hey
+      - Hola, ¿qué tal?
+      - Saludos
+  - intent: goodbye
+    examples: |
+      - Adiós
+      - ¡Hasta luego!
+      - Nos vemos
+      - Me despido
+      - Gracias, adiós
+      - Hasta pronto
+      - Chau
+      - Bye
+      - Cuídate
+      - Hasta la próxima
+  - intent: ask_question
+    examples: |
+      - ¿Cómo puedo enviar un requerimiento en Solver?
+      - ¿Dónde puedo gestionar elementos ergonómicos?
+      - ¿Qué debo hacer para enviar un nuevo requerimiento?
+      - ¿Cómo hago para enviar un requerimiento en el CRM de Solver?
+      - ¿Cuáles son los pasos para reportar una licencia?
+      - ¿Cómo puedo solicitar un permiso?
+      - ¿Qué debo hacer para reportar una incapacidad?
+      - ¿Qué elementos puedo seleccionar en clasificación?
+      - ¿Qué opciones están disponibles en clasificación?
+      - ¿Puedo seleccionar un reposapiés?
+      - ¿Qué elementos ergonómicos están disponibles?
+      - ¿Cómo puedo hacer un seguimiento de mi requerimiento?
+      - ¿Puedo revisar si mi caso está abierto?
+      - ¿Cómo verifico si mi caso ya está cerrado?
+      - ¿Cómo sé si mi caso está sin asignar?
+      - ¿Puedo adjuntar un archivo al requerimiento?
+      - ¿Cómo adjunto una prueba?
+      - ¿Qué debo hacer para agregar un archivo?
+      - ¿Qué es el Solvo ID?
+      - ¿Dónde puedo encontrar mi Solvo ID?
+      - Quiero saber mi Solvo ID
+      - ¿Qué significa Solvo ID?
+      - Dime más sobre el Solvo ID
+      - ¿Cómo puedo obtener mi Solvo ID?
+      - Explícame qué es el Solvo ID
+      - ¿Para qué sirve el Solvo ID?
+      - ¿Dónde está mi Solvo ID en Midasoft?
+      - ¿Dónde puedo ver mi seguridad social?
+      - Quiero ver mi pensión y EPS
+      - Información sobre mi ARL
+      - ¿Cómo veo mi información de seguridad social?
+      - Seguridad social
+      - ¿Dónde veo mis cesantías?
+      - Información de mis cesantías
+      - ¿Dónde están mis fondos de cesantías?
+      - eps
+      - ¿Cómo reporto una licencia?
+      - Quiero reportar una novedad de licencia
+      - Información sobre licencias remuneradas
+      - ¿Qué hago para justificar una licencia por calamidad?
+      - ¿Dónde reporto mis permisos y licencias no remuneradas?
+      - Necesito reportar una ausencia
+      - ¿Cómo adjunto un documento para mi licencia?
+      - ¿Qué información debo incluir para reportar un permiso?
+      - ¿Cómo informo una incapacidad?
+      - Quiero reportar una novedad de incapacidad
+      - Información sobre incapacidades
+      - ¿Dónde ingreso los datos de una incapacidad?
+      - ¿Cómo reporto un accidente de trabajo?
+      - Quiero registrar una incapacidad por enfermedad general
+      - ¿Cómo adjunto documentos para una incapacidad?
+      - ¿Dónde puedo reportar mi incapacidad?
+      - ¿Cuáles son los tipos de ausencias disponibles?
+      - ¿Qué tipos de licencias existen?
+      - ¿Qué opciones de ausencia hay?
+      - Tipos de ausencias
+      - ¿Qué opciones hay para licencia por luto?
+      - Licencia de matrimonio
+      - Día de la familia
+      - ¿Cuáles son los tipos de incapacidad disponibles?
+      - ¿Qué tipos de incapacidades existen?
+      - Tipos de incapacidad
+      - Opciones de incapacidad
+      - Incapacidad por enfermedad general
+      - Incapacidad por accidente laboral
+      - Maternidad o paternidad
+      - ¿Cómo puedo pedir una cita de acompañamiento psicológico?
+      - ¿Qué debo hacer para solicitar una cita psicológica?
+      - ¿Cómo pido una cita con la profesional en Solvo?
+      - ¿Dónde está la opción para solicitar citas psicológicas?
+      - ¿Cómo puedo agendar una cita en seguridad y salud en el trabajo?
+      - ¿Cuántas citas gratuitas tengo disponibles?
+      - ¿Cuántas asesorías psicológicas puedo recibir gratis?
+      - ¿Son las citas gratuitas?
+      - ¿Cuántas sesiones gratis incluye el servicio?
+      - ¿Qué pasa si no hay disponibilidad para las citas?
+      - ¿Cuándo se abren las citas?
+      - ¿Qué debo hacer si no hay citas disponibles?
+      - ¿Cómo puedo encontrar un horario disponible?
+      - ¿Cómo monto un requerimiento en el CRM?
+      - ¿Qué pasos debo seguir para enviar un nuevo requerimiento?
+      - ¿Cómo puedo pedir ayuda al Wolfpack?
+      - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?
+      - ¿Qué tipos de clasificación hay disponibles?
+      - ¿Qué opciones aparecen en clasificación?
+      - ¿Cómo selecciono un certificado con funciones?
+      - ¿Qué opciones aparecen según el tipo inicial?
+      - ¿Qué significa que una solicitud sea solo para líderes?
+      - ¿Quiénes pueden enviar solicitudes solo para líderes?
+      - ¿Qué hago si no tengo un puesto de liderazgo?
+      - ¿Qué tipos de posiciones califican como liderazgo?
+      - ¿Cómo adjunto un archivo al requerimiento?
+      - ¿Es necesario adjuntar documentos?
+      - ¿Dónde subo los archivos para mi solicitud?
+      - ¿Cómo uso el botón de la carpeta?
+      - ¿Cómo hago el seguimiento de mi requerimiento?
+      - ¿Dónde reviso si mi solicitud está abierta?
+      - ¿Cómo sé si mi caso está cerrado o sin asignar?
+      - ¿Qué opciones hay para ver el estado de mi solicitud?
+      - ¿Cómo descargo mi comprobante de pago?
+      - ¿Dónde puedo obtener mi comprobante de nómina?
+      - ¿Cómo puedo acceder al archivo PDF de mi pago?
+      - ¿Qué pasos debo seguir para descargar mi nómina en Midasoft?
+      - ¿Qué información contiene el comprobante de pago?
+      - ¿Qué datos puedo ver en mi nómina descargada?
+      - ¿Qué aparece en la tabla del comprobante de nómina?
+      - ¿Qué datos incluye mi Solvo ID y el valor neto?
+      - ¿Qué deducciones se reflejan en mi comprobante?
+      - ¿Qué significa el aporte a salud en el comprobante?
+      - ¿Dónde puedo ver mis aportes a pensión en la nómina?
+      - ¿Qué conceptos aparecen como deducciones?
+      - ¿Dónde puedo ver el valor neto a pagar?
+      - ¿Qué es el valor neto que aparece en el comprobante?
+      - ¿Cómo sé cuánto me depositaron?
+      - ¿Qué significa el valor neto a mi cuenta?
+      - ¿Cómo reviso dónde está mi comprobante de pago?
+      - ¿Dónde puedo encontrar mi comprobante de nómina?
+      - ¿Qué pasos debo seguir para revisar mi comprobante?
+      - ¿Cómo encuentro mi desprendible de nómina?
+      - ¿Cómo descargo mi comprobante de nómina?
+      - ¿Qué debo hacer para descargar mi comprobante?
+      - ¿Cómo obtengo mi desprendible en formato PDF?
+      - ¿Puedo descargar mi colilla de pago desde el sistema?
+      - ¿Cómo envío mi comprobante a mi correo electrónico?
+      - ¿Puedo enviar mi desprendible por correo?
+      - ¿Qué pasos sigo para mandar el comprobante a mi email?
+      - ¿Se puede compartir el archivo al correo directamente?
+      - ¿Cómo selecciono el periodo de mi comprobante?
+      - ¿Qué hago si quiero ver un comprobante de otro mes?
+      - ¿Cómo elijo un periodo específico de nómina?
+      - ¿Dónde selecciono el primer pago de mayo?
+      - ¿Qué tipos de licencias hay? ¿Cómo reporto una licencia?
+      - ¿Cuáles son las incapacidades disponibles? ¿Cómo solicito una licencia?
+      - ¿Qué tipos de permisos existen? ¿Qué hago para reportar una licencia?
+      - ¿Cómo reporto una licencia? ¿Qué tipos de licencias existen?
