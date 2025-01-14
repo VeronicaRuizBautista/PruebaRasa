@@ -6,7 +6,7 @@ rules:
     steps:
       - intent: greet
       - action: utter_greet
-
+      - action: action_pregunta_posterior
 
   - rule: Responder a una despedida
     steps:

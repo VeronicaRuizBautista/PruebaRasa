@@ -157,4 +157,11 @@ class ActionProcesarPreguntas(Action):
 
 #         return []
 
-    
+class ActionSendAutoMessage(Action):
+    def name(self) -> str:
+        return "action_send_auto_message"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker, domain):
+        # Enviar el mensaje automático
+        dispatcher.utter_message(text="Si necesitas más ayuda, no dudes en preguntar.")
+        return []

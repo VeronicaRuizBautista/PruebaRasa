@@ -6,6 +6,7 @@ stories:
   steps:
     - intent: greet
     - action: utter_greet
+    - action: action_pregunta_posterior
     - intent: goodbye
     - action: utter_goodbye
 

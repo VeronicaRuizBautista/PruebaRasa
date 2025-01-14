@@ -81,11 +81,15 @@ responses:
   utter_seleccionar_periodo:
     - text: "En 'Mis certificaciones', selecciona el periodo que deseas consultar. Por ejemplo, el primer pago de mayo, y luego descarga o envía el comprobante."
 
+  utter_pregunta_posterior:
+    - text: "¿Hay algo mas en lo que te pueda ayudar?"
+  
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 
 actions:
   - action_default_fallback
+  - action_pregunta_posterior
   - action_multiple_questions
 
   

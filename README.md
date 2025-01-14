@@ -27,7 +27,7 @@ Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
    ```bash
    pip install psycopg2-binary==2.9.3
    pip install fire==0.4.0
-   pip sentence_transformers
+   pip install sentence_transformers
    ```
 
 4. **Instalar Rasa y Spacy**:  
