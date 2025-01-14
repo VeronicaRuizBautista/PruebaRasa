@@ -1,65 +1,203 @@
 {
-  "goodbye": {
-    "precision": 0.9090909090909091,
-    "recall": 1.0,
-    "f1-score": 0.9523809523809523,
-    "support": 10,
-    "confused_with": {}
-  },
-  "solicitar_vacaciones": {
+  "preguntar_periodo_comprobante": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4,
     "confused_with": {}
   },
-  "constancia_medica": {
+  "tipos_incapacidad": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
+    "support": 7,
     "confused_with": {}
   },
-  "out_of_scope": {
+  "disponibilidad_de_citas_psicologicas": {
     "precision": 1.0,
-    "recall": 0.9444444444444444,
-    "f1-score": 0.9714285714285714,
-    "support": 18,
-    "confused_with": {
-      "goodbye": 1
-    }
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
   },
-  "greet": {
+  "preguntar_como_montar_requerimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "preguntar_como_descargar_comprobante": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "preguntar_por_cita_psicologica": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "preguntar_descargar_comprobante": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "multiple_questions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "preguntar_por_seguimiento_requerimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "preguntar_sobre_deducciones": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "novedad_licencia": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "preguntar_seguimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "seguridad_social": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 9,
     "confused_with": {}
   },
-  "obtener_colilla": {
+  "preguntar_sobre_informacion_comprobante": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4,
     "confused_with": {}
   },
-  "accuracy": 0.9791666666666666,
+  "preguntar_enviar_comprobante_correo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 36,
+    "confused_with": {}
+  },
+  "solvo_id": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "preguntar_sobre_valor_neto": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "preguntar_por_clasificacion_ergonomica": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "citas_psicologicas_gratis": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "novedad_incapacidad": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "tipos_ausencias": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "preguntar_como_enviar_requerimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "preguntar_como_revisar_comprobante": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "accuracy": 1.0,
   "macro avg": {
-    "precision": 0.9848484848484849,
-    "recall": 0.9907407407407408,
-    "f1-score": 0.9873015873015873,
-    "support": 48
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 196
   },
   "weighted avg": {
-    "precision": 0.9810606060606061,
-    "recall": 0.9791666666666666,
-    "f1-score": 0.9793650793650794,
-    "support": 48
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 196
   },
   "micro avg": {
-    "precision": 0.9791666666666666,
-    "recall": 0.9791666666666666,
-    "f1-score": 0.9791666666666666,
-    "support": 48
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 196
   }
 }

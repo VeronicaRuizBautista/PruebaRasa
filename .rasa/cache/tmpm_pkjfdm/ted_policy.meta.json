@@ -74,7 +74,7 @@
   "e2e_confidence_threshold": 0.5,
   "featurizers": [],
   "entity_recognition": false,
-  "constrain_similarities": false,
+  "constrain_similarities": true,
   "model_confidence": "softmax",
   "BILOU_flag": true,
   "split_entities_by_comma": true,

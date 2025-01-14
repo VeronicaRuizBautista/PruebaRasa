@@ -5,7 +5,6 @@ intents:
   - goodbye
   - preguntar_como_enviar_requerimiento
   - preguntar_por_clasificacion_ergonomica
-  - preguntar_por_seguimiento_requerimiento
   - solvo_id
   - seguridad_social
   - novedad_licencia
@@ -15,15 +14,11 @@ intents:
   - preguntar_por_cita_psicologica
   - citas_psicologicas_gratis
   - disponibilidad_de_citas_psicologicas
-  - preguntar_como_montar_requerimiento
   - preguntar_seguimiento
-  - preguntar_como_descargar_comprobante
   - preguntar_sobre_informacion_comprobante
   - preguntar_sobre_deducciones
   - preguntar_sobre_valor_neto
   - preguntar_como_revisar_comprobante
-  - preguntar_descargar_comprobante
-  - preguntar_enviar_comprobante_correo
   - preguntar_periodo_comprobante
   - multiple_questions
   - out_of_scope
@@ -36,14 +31,11 @@ responses:
     - text: "¡Hasta luego! Si necesitas algo más, no dudes en preguntar."
 
   utter_enviar_requerimiento:
-    - text: "Para enviar un requerimiento, accede al CRM de Solver, haz clic en Gestión Helpdesk, luego en Enviar nuevo requerimiento y llena los campos necesarios."
+    - text: "Para enviar un requerimiento, accede al CRM, haz clic en Gestión Helpdesk,y selecciona 'Enviar nuevo requerimiento'. Agrega un asunto, selecciona un ítem y agrega una descripción si quieres dar más detalles de tu solicitud. No olvides guardar tu solicitud."
   
   utter_clasificacion_ergonomica:
     - text: "En clasificación puedes seleccionar elementos como base para dos monitores, laptop o reposapiés."
-  
-  utter_seguimiento_requerimiento:
-    - text: "Puedes hacer un seguimiento revisando el estado de tu caso: abierto, sin asignar o cerrado."
-  
+
   utter_solvo_id:
     - text: "Así como tienes una cédula de ciudadanía que te identifica frente al estado, en Solvo también tenemos algo llamado Solvo ID. Este será una serial que te identificará dentro de la empresa como un empleado o un solver. Si quieres conocer cuál es tu Solvo ID, puedes ingresar a Midasoft y en la esquina superior derecha debajo de tu cédula vas a encontrar este número."
 
@@ -71,15 +63,9 @@ responses:
   utter_disponibilidad_de_citas_psicologicas:
     - text: "Las citas se agendan semanalmente. Si no hay disponibilidad, revisa más tarde y permanece pendiente de nuevas aperturas."
 
-  utter_como_montar_requerimiento:
-    - text: "Para montar un nuevo requerimiento, ve al CRM, haz clic en Gestión Helpdesk y selecciona 'Enviar nuevo requerimiento'. Agrega un asunto, selecciona un ítem y completa los detalles. No olvides guardar tu solicitud."
-  
   utter_seguimiento:
-    - text: "Puedes dar seguimiento a tus requerimientos revisando si están abiertos, cerrados o sin asignar. Ve a la sección correspondiente para ver el estado de tu solicitud."
+    - text: "Puedes hacer un seguimiento revisando el estado de tu caso: abierto, sin asignar o cerrado. Ve a CRM, haz clic en Gestión Helpdesk, haz click en enviar nuevo requerimiento y ahi encontras todos tus requerimientos y sus estados."
 
-  utter_como_descargar_comprobante:
-    - text: "Para descargar tu comprobante de pago, entra a Midasoft, busca tu nómina y descárgala en formato PDF."
-  
   utter_informacion_comprobante:
     - text: "El comprobante incluye tu Solvo ID, tu nombre, salario mensual, cargo, cuenta bancaria, conceptos de pago y deducciones, además del valor neto a pagar."
   
@@ -90,13 +76,7 @@ responses:
     - text: "El valor neto a pagar es el monto que finalmente se te deposita después de aplicar todas las deducciones."
 
   utter_como_revisar_comprobante:
-    - text: "Para revisar tu comprobante de pago, ve a 'Mis certificaciones' y haz clic en 'Comprobante de nómina'. Selecciona el periodo que deseas consultar."
-  
-  utter_descargar_comprobante:
-    - text: "Para descargar tu comprobante, selecciona el periodo deseado y haz clic en 'Descargar archivo'. El archivo PDF estará disponible automáticamente."
-  
-  utter_enviar_comprobante_correo:
-    - text: "Puedes enviar tu comprobante a tu correo seleccionando el periodo y haciendo clic en 'Enviar al correo electrónico'."
+    - text: "Para revisar tu comprobante de pago,entra a Midasoft, ve a 'Mis certificaciones' y haz clic en 'Comprobante de nómina'. Selecciona el periodo que deseas consultar. Luego prodrás descargar el archivo en PDF o enviarlo por correo electrónico."
   
   utter_seleccionar_periodo:
     - text: "En 'Mis certificaciones', selecciona el periodo que deseas consultar. Por ejemplo, el primer pago de mayo, y luego descarga o envía el comprobante."

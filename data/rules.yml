@@ -28,10 +28,6 @@ rules:
     - intent: preguntar_por_clasificacion_ergonomica
     - action: utter_clasificacion_ergonomica
 
-  - rule: seguimiento_caso
-    steps:
-    - intent: preguntar_por_seguimiento_requerimiento
-    - action: utter_seguimiento_requerimiento
 
   - rule: Manejo de Solvo ID
     steps:
@@ -78,20 +74,11 @@ rules:
     - intent: disponibilidad_de_citas_psicologicas
     - action: utter_disponibilidad_de_citas_psicologicas
 
-  - rule: montar_requerimiento
-    steps:
-    - intent: preguntar_como_montar_requerimiento
-    - action: utter_como_montar_requerimiento
 
   - rule: seguimiento
     steps:
     - intent: preguntar_seguimiento
     - action: utter_seguimiento
-
-  - rule: descargar_comprobante
-    steps:
-    - intent: preguntar_como_descargar_comprobante
-    - action: utter_como_descargar_comprobante
 
   - rule: informacion_comprobante
     steps:
@@ -112,16 +99,6 @@ rules:
     steps:
     - intent: preguntar_como_revisar_comprobante
     - action: utter_como_revisar_comprobante
-
-  - rule: descargar_comprobante
-    steps:
-    - intent: preguntar_descargar_comprobante
-    - action: utter_descargar_comprobante
-
-  - rule: enviar_comprobante_correo
-    steps:
-    - intent: preguntar_enviar_comprobante_correo
-    - action: utter_enviar_comprobante_correo
 
   - rule: seleccionar_periodo
     steps:

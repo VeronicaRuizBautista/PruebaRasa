@@ -19,11 +19,6 @@ stories:
   - intent: preguntar_por_clasificacion_ergonomica
   - action: utter_clasificacion_ergonomica
 
-- story: seguimiento_caso
-  steps:
-  - intent: preguntar_por_seguimiento_requerimiento
-  - action: utter_seguimiento_requerimiento
-
 - story: Fuera del ámbito
   steps:
     - intent: out_of_scope
@@ -74,20 +69,10 @@ stories:
   - intent: disponibilidad_de_citas_psicologicas
   - action: utter_disponibilidad_de_citas_psicologicas
 
-- story: montar_requerimiento
-  steps:
-  - intent: preguntar_como_montar_requerimiento
-  - action: utter_como_montar_requerimiento
-
 - story: seguimiento
   steps:
   - intent: preguntar_seguimiento
   - action: utter_seguimiento
-
-- story: descargar_comprobante
-  steps:
-  - intent: preguntar_como_descargar_comprobante
-  - action: utter_como_descargar_comprobante
 
 - story: informacion_comprobante
   steps:
@@ -108,16 +93,6 @@ stories:
   steps:
   - intent: preguntar_como_revisar_comprobante
   - action: utter_como_revisar_comprobante
-
-- story: descargar_comprobante
-  steps:
-  - intent: preguntar_descargar_comprobante
-  - action: utter_descargar_comprobante
-
-- story: enviar_comprobante_correo
-  steps:
-  - intent: preguntar_enviar_comprobante_correo
-  - action: utter_enviar_comprobante_correo
 
 - story: seleccionar_periodo
   steps:

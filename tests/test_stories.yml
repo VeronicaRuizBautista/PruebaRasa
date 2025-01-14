@@ -30,11 +30,6 @@ test_stories:
   - intent: preguntar_por_clasificacion_ergonomica
   - action: utter_clasificacion_ergonomica
 
-- story: prueba_seguimiento
-  steps:
-  - intent: preguntar_por_seguimiento_requerimiento
-  - action: utter_seguimiento_requerimiento
-
 - story: Probar manejo del Solvo ID
   steps:
     - intent: solvo_id
@@ -80,20 +75,10 @@ test_stories:
   - intent: disponibilidad_de_citas_psicologicas
   - action: utter_disponibilidad_de_citas_psicologicas
 
-- story: prueba_montar_requerimiento
-  steps:
-  - intent: preguntar_como_montar_requerimiento
-  - action: utter_como_montar_requerimiento
-
 - story: prueba_seguimiento
   steps:
   - intent: preguntar_seguimiento
   - action: utter_seguimiento
-
-- story: prueba_descargar_comprobante
-  steps:
-  - intent: preguntar_como_descargar_comprobante
-  - action: utter_como_descargar_comprobante
 
 - story: prueba_informacion_comprobante
   steps:
@@ -114,16 +99,6 @@ test_stories:
   steps:
   - intent: preguntar_como_revisar_comprobante
   - action: utter_como_revisar_comprobante
-
-- story: prueba_descargar_comprobante
-  steps:
-  - intent: preguntar_descargar_comprobante
-  - action: utter_descargar_comprobante
-
-- story: prueba_enviar_comprobante_correo
-  steps:
-  - intent: preguntar_enviar_comprobante_correo
-  - action: utter_enviar_comprobante_correo
 
 - story: prueba_seleccionar_periodo
   steps:

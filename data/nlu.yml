@@ -37,6 +37,15 @@ nlu:
       - ¿Dónde puedo gestionar elementos ergonómicos?
       - ¿Qué debo hacer para enviar un nuevo requerimiento?
       - ¿Cómo hago para enviar un requerimiento en el CRM de Solver?
+      - como enviar un requermiento en Midasoft
+      - quiero pedir elementos ergonómicos
+      - como solicitar equipos para el trabajo
+      - haccer un requerimiento
+      - ¿Cómo monto un requerimiento en el CRM?
+      - ¿Cómo enviar un requerimiento?
+      - ¿Qué pasos debo seguir para enviar un nuevo requerimiento?
+      - ¿Cómo puedo pedir ayuda al Wolfpack?
+      - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?
 
   - intent: preguntar_por_clasificacion_ergonomica
     examples: |
@@ -44,13 +53,8 @@ nlu:
       - ¿Qué opciones están disponibles en clasificación?
       - ¿Puedo seleccionar un reposapiés?
       - ¿Qué elementos ergonómicos están disponibles?
-
-  - intent: preguntar_por_seguimiento_requerimiento
-    examples: |
-      - ¿Cómo puedo hacer un seguimiento de mi requerimiento?
-      - ¿Puedo revisar si mi caso está abierto?
-      - ¿Cómo verifico si mi caso ya está cerrado?
-      - ¿Cómo sé si mi caso está sin asignar?
+      - tipos de equipos que puedo pedir
+      - que equipos puedo pedir
 
   - intent: solvo_id
     examples: |
@@ -63,6 +67,8 @@ nlu:
       - Explícame qué es el Solvo ID
       - ¿Para qué sirve el Solvo ID?
       - ¿Dónde está mi Solvo ID en Midasoft?
+      - solvo id
+      - que es solvo id
 
   - intent: seguridad_social
     examples: |
@@ -75,6 +81,8 @@ nlu:
       - Información de mis cesantías
       - ¿Dónde están mis fondos de cesantías?
       - eps
+      - como se cual es mi seguridad social
+      - ver mi seguridad social en midasoft
 
   - intent: novedad_licencia
     examples: |
@@ -85,7 +93,7 @@ nlu:
       - ¿Dónde reporto mis permisos y licencias no remuneradas?
       - Necesito reportar una ausencia
       - ¿Cómo adjunto un documento para mi licencia?
-      - ¿Qué información debo incluir para reportar un permiso?
+      - reportar un permiso
 
   - intent: novedad_incapacidad
     examples: |
@@ -124,7 +132,7 @@ nlu:
       - ¿Qué debo hacer para solicitar una cita psicológica?
       - ¿Cómo pido una cita con la profesional en Solvo?
       - ¿Dónde está la opción para solicitar citas psicológicas?
-      - ¿Cómo puedo agendar una cita en seguridad y salud en el trabajo?
+      - ¿Cómo puedo agendar una cita en midasoft?
 
   - intent: citas_psicologicas_gratis
     examples: |
@@ -132,6 +140,8 @@ nlu:
       - ¿Cuántas asesorías psicológicas puedo recibir gratis?
       - ¿Son las citas gratuitas?
       - ¿Cuántas sesiones gratis incluye el servicio?
+      - citas psicologicas gratis
+      - citas gratis
 
   - intent: disponibilidad_de_citas_psicologicas
     examples: |
@@ -139,14 +149,8 @@ nlu:
       - ¿Cuándo se abren las citas?
       - ¿Qué debo hacer si no hay citas disponibles?
       - ¿Cómo puedo encontrar un horario disponible?
-
-  - intent: preguntar_como_montar_requerimiento
-    examples: |
-      - ¿Cómo monto un requerimiento en el CRM?
-      - ¿Cómo enviar un requerimiento?
-      - ¿Qué pasos debo seguir para enviar un nuevo requerimiento?
-      - ¿Cómo puedo pedir ayuda al Wolfpack?
-      - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?
+      - citas disponibles
+      - citas psicologicas disponibles
 
   - intent: preguntar_seguimiento
     examples: |
@@ -154,13 +158,10 @@ nlu:
       - ¿Dónde reviso si mi solicitud está abierta?
       - ¿Cómo sé si mi caso está cerrado o sin asignar?
       - ¿Qué opciones hay para ver el estado de mi solicitud?
-
-  - intent: preguntar_como_descargar_comprobante
-    examples: |
-      - ¿Cómo descargo mi comprobante de pago?
-      - ¿Dónde puedo obtener mi comprobante de nómina?
-      - ¿Cómo puedo acceder al archivo PDF de mi pago?
-      - ¿Qué pasos debo seguir para descargar mi nómina en Midasoft?
+      - ¿Cómo puedo hacer un seguimiento de mi requerimiento?
+      - ¿Puedo revisar si mi caso está abierto?
+      - ¿Cómo verifico si mi caso ya está cerrado?
+      - ¿Cómo sé si mi caso está sin asignar?
 
   - intent: preguntar_sobre_informacion_comprobante
     examples: |
@@ -189,20 +190,14 @@ nlu:
       - ¿Dónde puedo encontrar mi comprobante de nómina?
       - ¿Qué pasos debo seguir para revisar mi comprobante?
       - ¿Cómo encuentro mi desprendible de nómina?
-
-  - intent: preguntar_descargar_comprobante
-    examples: |
+      - ¿Cómo descargo mi comprobante de pago?
+      - ¿Dónde puedo obtener mi comprobante de nómina?
+      - ¿Cómo puedo acceder al archivo PDF de mi pago?
+      - ¿Qué pasos debo seguir para descargar mi nómina en Midasoft?
       - ¿Cómo descargo mi comprobante de nómina?
       - ¿Qué debo hacer para descargar mi comprobante?
       - ¿Cómo obtengo mi desprendible en formato PDF?
       - ¿Puedo descargar mi colilla de pago desde el sistema?
-
-  - intent: preguntar_enviar_comprobante_correo
-    examples: |
-      - ¿Cómo envío mi comprobante a mi correo electrónico?
-      - ¿Puedo enviar mi desprendible por correo?
-      - ¿Qué pasos sigo para mandar el comprobante a mi email?
-      - ¿Se puede compartir el archivo al correo directamente?
 
   - intent: preguntar_periodo_comprobante
     examples: |
@@ -210,6 +205,10 @@ nlu:
       - ¿Qué hago si quiero ver un comprobante de otro mes?
       - ¿Cómo elijo un periodo específico de nómina?
       - ¿Dónde selecciono el primer pago de mayo?
+      - ¿Cómo envío mi comprobante a mi correo electrónico?
+      - ¿Puedo enviar mi desprendible por correo?
+      - ¿Qué pasos sigo para mandar el comprobante a mi email?
+      - ¿Se puede compartir el archivo al correo directamente?
 
   - intent: multiple_questions
     examples: |
