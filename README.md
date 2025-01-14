@@ -27,6 +27,7 @@ Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
    ```bash
    pip install psycopg2-binary==2.9.3
    pip install fire==0.4.0
+   pip sentence_transformers
    ```
 
 4. **Instalar Rasa y Spacy**:  
@@ -35,10 +36,11 @@ Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
    pip install rasa[spacy]
    ```
 
-5. **Descargar el modelo de Spacy para Español**:  
+5. **Descargar el modelo de Spacy para Español y el modelo de embedding**:  
    Descarga el modelo de Spacy para procesamiento en español:
    ```bash
    python -m spacy download es_core_news_sm
+   python descarga.py
    ```
 
 ---
