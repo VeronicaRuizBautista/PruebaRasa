@@ -12,6 +12,11 @@ nlu:
       - Hey
       - Hola, ¿qué tal?
       - Saludos
+      - Hello
+      - hi
+      - hellou
+      - hii
+      - Holis
   - intent: goodbye
     examples: |
       - Adiós
@@ -138,6 +143,7 @@ nlu:
   - intent: preguntar_como_montar_requerimiento
     examples: |
       - ¿Cómo monto un requerimiento en el CRM?
+      - ¿Cómo enviar un requerimiento?
       - ¿Qué pasos debo seguir para enviar un nuevo requerimiento?
       - ¿Cómo puedo pedir ayuda al Wolfpack?
       - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?

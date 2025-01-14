@@ -7,10 +7,6 @@ rules:
       - intent: greet
       - action: utter_greet
 
-  - rule: Greet user at the start of the conversation
-    steps:
-      - action: action_session_start
-      - action: action_initial_greet
 
   - rule: Responder a una despedida
     steps:

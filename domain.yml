@@ -107,7 +107,6 @@ responses:
 actions:
   - action_default_fallback
   - action_multiple_questions
-  - action_initial_greet
 
   
 session_config:
