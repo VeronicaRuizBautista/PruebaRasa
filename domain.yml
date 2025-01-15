@@ -88,9 +88,9 @@ responses:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
 
 actions:
-  - action_default_fallback
-  - action_pregunta_posterior
   - action_multiple_questions
+  - action_send_auto_message
+  - action_default_fallback
 
   
 session_config:
