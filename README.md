@@ -55,6 +55,14 @@ rasa shell
 ```
 ![alt text](image.png)
 
+### ⚙️ Ejecutar el archivo Actions
+
+Para el apropiado funcionamiento del modelo se necesita la ejecución alterna de los actions en otra terminal:
+
+```bash
+rasa run actions
+```
+
 ### 🔴 **Desactivar el entorno virtual**
 
 Para desactivar el entorno virtual, usa el siguiente comando:
