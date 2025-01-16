@@ -54,6 +54,7 @@ rasa train
 rasa shell
 ```
 ![alt text](image.png)
+![alt text](image-1.png)
 
 ### ⚙️ Ejecutar el archivo Actions
 

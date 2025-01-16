@@ -24,7 +24,6 @@ class ActionDefaultFallback(Action):
 
 import re
 from sentence_transformers import SentenceTransformer, util
-
 class ActionProcesarPreguntas(Action):
     def name(self) -> Text:
         return "action_multiple_questions"
@@ -33,12 +32,9 @@ class ActionProcesarPreguntas(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # Preguntas del usuario (extraídas de los últimos mensajes)
-        # Usamos una expresión regular para separar las preguntas por diferentes delimitadores
-        mensaje_usuario = tracker.latest_message.get('text', "")
-        preguntas_usuario = re.split(r'[¿?;.\n]+', mensaje_usuario)  # Divide por ;, ?, . o salto de línea
-
-        # Filtramos preguntas vacías que puedan quedar después de la división
+        # Preguntas del usuario
+        mensaje_usuario = tracker.latest_message.get('text', "").lower()  # Convertir a minúsculas
+        preguntas_usuario = re.split(r'[¿?;.\n]+', mensaje_usuario)
         preguntas_usuario = [pregunta.strip() for pregunta in preguntas_usuario if pregunta.strip()]
 
         # Respuestas predefinidas
@@ -69,17 +65,25 @@ class ActionProcesarPreguntas(Action):
 
         # Convertir preguntas y respuestas en embeddings
         preguntas_embeddings = model.encode(preguntas_usuario)
-        respuestas_embeddings = model.encode(list(respuestas_dict.values()))
+        respuestas_keys = list(respuestas_dict.keys())
+        respuestas_embeddings = model.encode(respuestas_keys)
 
-        # Calcular la similitud entre preguntas y respuestas
+        # Calcular similitud entre preguntas y respuestas
         similitudes = util.pytorch_cos_sim(preguntas_embeddings, respuestas_embeddings)
 
-        # Procesar las preguntas
+        # Procesar preguntas y seleccionar la mejor respuesta
         respuestas = []
         for i, pregunta in enumerate(preguntas_usuario):
-            mejor_respuesta_idx = similitudes[i].argmax()
-            mejor_respuesta = list(respuestas_dict.values())[mejor_respuesta_idx]
-            respuestas.append(f"{mejor_respuesta}")
+            max_similitud = similitudes[i].max().item()
+            mejor_respuesta_idx = similitudes[i].argmax().item()
+
+            # Umbral mínimo para considerar una respuesta válida
+            umbral_similitud = 0.5
+            if max_similitud >= umbral_similitud:
+                mejor_respuesta = respuestas_dict[respuestas_keys[mejor_respuesta_idx]]
+                respuestas.append(f"Pregunta: {pregunta}\nRespuesta: {mejor_respuesta}")
+            else:
+                respuestas.append(f"Pregunta: {pregunta}\nRespuesta: Lo siento, no tengo información sobre esto en este momento.")
 
         # Responder al usuario
         dispatcher.utter_message("\n\n".join(respuestas))

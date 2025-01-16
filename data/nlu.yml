@@ -212,7 +212,7 @@ nlu:
 
   - intent: multiple_questions
     examples: |
-      - ¿solvo id? ¿seguridad social?
+      - ¿que es solvo id? ¿como veo mi seguridad social?
       - ¿Cómo reporto una licencia? ¿Qué tipos de licencias existen?
       - ¿Cómo enviar un requerimiento? ¿Qué es la clasificación ergonómica?
       - ¿Cómo hacer seguimiento de un requerimiento? ¿Qué es el Solvo ID?
