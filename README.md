@@ -52,7 +52,7 @@ Para entrenar y ejecutar el chatbot, ejecute el siguiente comando:
 ```bash
 rasa train
 rasa shell
-rasa run --enable-api --cors "*" --port 5005
+rasa run -m models --enable-api --cors "*" --debug
 ```
 ![alt text](image.png)
 ![alt text](image-1.png)
