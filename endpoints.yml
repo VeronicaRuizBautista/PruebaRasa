@@ -1,2 +1,12 @@
 action_endpoint:
   url: "http://localhost:5055/webhook"
+
+channel:
+  type: "websocket"
+  port: 5005
+
+rasa:
+  url: "ws://localhost:5005"
+
+cors:
+  - "*"

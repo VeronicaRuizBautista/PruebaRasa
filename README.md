@@ -47,11 +47,12 @@ Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
 
 ### 🚀 Entrenamiento del Modelo
 
-Para entrenar el chatbot, ejecute el siguiente comando:
+Para entrenar y ejecutar el chatbot, ejecute el siguiente comando:
 
 ```bash
 rasa train
 rasa shell
+rasa run --enable-api --cors "*" --port 5005
 ```
 ![alt text](image.png)
 ![alt text](image-1.png)
