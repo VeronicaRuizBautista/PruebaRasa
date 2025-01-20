@@ -81,9 +81,9 @@ class ActionProcesarPreguntas(Action):
             umbral_similitud = 0.5
             if max_similitud >= umbral_similitud:
                 mejor_respuesta = respuestas_dict[respuestas_keys[mejor_respuesta_idx]]
-                respuestas.append(f"Pregunta: {pregunta}\nRespuesta: {mejor_respuesta}")
+                respuestas.append(f"{mejor_respuesta}")
             else:
-                respuestas.append(f"Pregunta: {pregunta}\nRespuesta: Lo siento, no tengo información sobre esto en este momento.")
+                respuestas.append(f"Lo siento, no tengo información sobre esto en este momento.")
 
         # Responder al usuario
         dispatcher.utter_message("\n\n".join(respuestas))
