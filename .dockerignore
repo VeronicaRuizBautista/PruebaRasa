@@ -1,0 +1,7 @@
+__pycache__/
+*.log
+*.db
+*.tar.gz
+models/
+*.pyc
+*.pyo
