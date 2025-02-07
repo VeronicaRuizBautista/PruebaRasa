@@ -7,6 +7,7 @@ Para poder configurar y ejecutar este modelo correctamente necesita:
 - Python3.8
 - PostgreSQL
 - setuptools==58.0.4
+- Docker (si desea ejecutar el proyecto en contenedores)
 
 Para comenzar con el chatbot en Rasa, sigue los pasos a continuación:
 
@@ -73,3 +74,23 @@ Para desactivar el entorno virtual, usa el siguiente comando:
 deactivate
 ```
 
+### 🚀 **Configuración con Docker**
+
+Si prefiere ejecutar el chatbot en un entorno controlado usando Docker, siga estos pasos:
+
+1. **Instalar Docker**:  
+   Asegúrese de tener Docker y Docker Compose instalados en su sistema. Si no los tiene, puede descargarlos desde [aquí](https://www.docker.com/get-started).
+
+2. **Construir y ejecutar los contenedores Docker:**
+Dentro del directorio del proyecto, use Docker Compose para construir y ejecutar los servicios:
+
+```bash
+docker-compose up --build
+```
+Esto levantará dos contenedores:
+
+- rasa_server: para el servidor de Rasa.
+- rasa_actions: para ejecutar las acciones personalizadas.
+
+Acceder al chatbot:
+Una vez que los contenedores estén en funcionamiento, el servidor del chatbot de Rasa estará accesible en http://localhost:5005.
