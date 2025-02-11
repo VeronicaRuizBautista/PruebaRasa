@@ -17,6 +17,17 @@ nlu:
       - hellou
       - hii
       - Holis
+      - Ola
+      - Alooo
+      - Olisss
+      - Hoolaaa
+      - bUEnas tardez
+      - q ondaaa
+      - Holaaaaaaa  
+      - Saluudoooos
+      - Aloooh
+      - Heeeyy
+      - Bonasss nochesss
   - intent: goodbye
     examples: |
       - Adiós
@@ -30,6 +41,14 @@ nlu:
       - Cuídate
       - Hasta la próxima
       - adios
+      - Adiooossss  
+      - Baaaayyy  
+      - Chaaaaoooo  
+      - Nos vemoos  
+      - Grachiaaas, chauu  
+      - Hasta luegitooo  
+      - Bye bye  
+      - Cuídatee  
 
   - intent: preguntar_como_enviar_requerimiento
     examples: |
@@ -46,6 +65,18 @@ nlu:
       - ¿Qué pasos debo seguir para enviar un nuevo requerimiento?
       - ¿Cómo puedo pedir ayuda al Wolfpack?
       - ¿Qué debo hacer para montar una solicitud en Gestión Helpdesk?
+      - Como enbio un requerimientoo?
+      - Q debo aser para solisitar un requerimientoo?
+      - ¿Donde pueo gestinar elementos ergonomicos?
+      - Quierooo pedir un repozapieess  
+      - nesecitoo un requerimientoo para mi trabajoo  
+      - comoh ago pa pedir una sillaaa ergonomica?  
+      - ¿Dóndee pueedo montar un requermientoo? 
+      - k debo aser pa pedir requerimient
+      - como pido lo k necesito pa el trabajo
+      - alguien me dice como ago esto?
+      - pa enviar un requerimiento q ago?
+      - me ayudan pa hacer una peticion?
 
   - intent: preguntar_por_clasificacion_ergonomica
     examples: |
@@ -55,6 +86,11 @@ nlu:
       - ¿Qué elementos ergonómicos están disponibles?
       - tipos de equipos que puedo pedir
       - que equipos puedo pedir
+      - q cosas ergonomikas hay pa pedir?
+      - los reposapies entran en eso?
+      - q puedo solicitar como equipo?
+      - cosas pa la oficina q se puede pedir?
+      - tienen sillas o no?
 
   - intent: solvo_id
     examples: |
@@ -69,6 +105,12 @@ nlu:
       - ¿Dónde está mi Solvo ID en Midasoft?
       - solvo id
       - que es solvo id
+      - solvo idd
+      - Solvooo IDDD
+      - Queee es el Solvo ID???
+      - Diiimeeee mi Solvoooo ID
+      - Holaaa, necesitooo mi solvo iddd
+      - Explíiiiiiiicameee qué es Solvo IDDD
 
   - intent: seguridad_social
     examples: |
@@ -83,6 +125,12 @@ nlu:
       - eps
       - como se cual es mi seguridad social
       - ver mi seguridad social en midasoft
+      - ¿Dónde pueeeedo ver mi seguridad sociaaaal?
+      - Quiiierooo verrr mi pensiooooon
+      - Infomaciooooon sobre mi ARLLLLLL
+      - ¿Dóndeeee estaa mi EPS?
+      - ver mi seguridad social ennnn midasofttttt
+      - mi arll
 
   - intent: novedad_licencia
     examples: |
@@ -94,6 +142,10 @@ nlu:
       - Necesito reportar una ausencia
       - ¿Cómo adjunto un documento para mi licencia?
       - reportar un permiso
+      - ¿Cómmooo reporrrtooo unaa licennnciaaa?
+      - Neeecessitooo reportar un permiso paraaa mañanaaa
+      - ¿Dónde pueeeeedo enviar mi documeeento paraaa mi licenciaaa?
+      - Quiiierooo reporrrtar unaa faltaaa hoyyyyy
 
   - intent: novedad_incapacidad
     examples: |
@@ -133,6 +185,10 @@ nlu:
       - ¿Cómo pido una cita con la profesional en Solvo?
       - ¿Dónde está la opción para solicitar citas psicológicas?
       - ¿Cómo puedo agendar una cita en midasoft?
+      - como ago pa pedir una cita con la psicologa?
+      - hay citas o ya no hay?
+      - donde se pide la cita con el de psicologia?
+      - como me registro pa una consulta de psicologo?
 
   - intent: citas_psicologicas_gratis
     examples: |
@@ -142,6 +198,7 @@ nlu:
       - ¿Cuántas sesiones gratis incluye el servicio?
       - citas psicologicas gratis
       - citas gratis
+      - pueo pedir cita gratis?
 
   - intent: disponibilidad_de_citas_psicologicas
     examples: |
@@ -198,6 +255,10 @@ nlu:
       - ¿Qué debo hacer para descargar mi comprobante?
       - ¿Cómo obtengo mi desprendible en formato PDF?
       - ¿Puedo descargar mi colilla de pago desde el sistema?
+      - ¿Dóndeee pueeeedoo veer mi comppprobaaaante de pagoooo?
+      - ¿Cómmooo revisoooo mi nòòòmina?
+      - Pueeedees ayudaarme a desscargar miii pagoooo?
+      - Nooo se dóoonde estáaaa mi nóminaaaa
 
   - intent: preguntar_periodo_comprobante
     examples: |
@@ -274,4 +335,58 @@ nlu:
       - Deportes
       - Criptomonedas
       - Estúpido
-
+      - ¿Quién ganó el último mundial de fútbol?
+      - Cuéntame un chiste
+      - ¿Cuál es el clima en Bogotá?
+      - ¿Me puedes dar la receta de una torta de chocolate?
+      - ¿Quién es el presidente de Francia?
+      - ¿Cuánto es 2+2?
+      - Recomiéndame una película
+      - ¿Cómo se dice "hola" en japonés?
+      - ¿Dónde puedo comprar un coche?
+      - ¿Cuándo es el próximo eclipse solar?
+      - ¿Qué significa la palabra "epistemología"?
+      - ¿Me puedes contar una historia de terror?
+      - ¿Cuál es la capital de Australia?
+      - Dame un consejo para invertir en bolsa
+      - ¿Cómo programo un videojuego?
+      - ¿Cuántos huesos tiene el cuerpo humano?
+      - ¿Cuántos kilómetros hay de la Tierra a la Luna?
+      - ¿Qué es la teoría de la relatividad?
+      - ¿Cómo puedo hacer una pizza casera?
+      - ¿Cuál es el mejor teléfono del mercado?
+      - ¿Me puedes decir mi horóscopo de hoy?
+      - ¿Dónde queda la Torre Eiffel?
+      - ¿Qué significa "carpe diem"?
+      - ¿Cómo se prepara un café expreso?
+      - ¿Quién escribió "Cien años de soledad"?
+      - ¿Dónde puedo aprender a tocar guitarra?
+      - ¿Cuánto cuesta un pasaje a Japón?
+      - ¿Cómo funciona la blockchain?
+      - ¿Qué necesito para adoptar un perro?
+      - ¿Cuál es la mejor marca de automóviles?
+      - hablame de politica
+      - intent: out_of_scope
+      - ¿Cuánto cuesta un carro?
+      - ¿Dónde puedo comprar comida?
+      - ¿Cuál es la capital de Japón?
+      - ¿Qué opinas de Messi vs Ronaldo?
+      - ¿Cómo hacer una pizza en casa?
+      - ¿Puedes contarme un chiste?
+      - ¿Qué películas recomiendas?
+      - ¿Dónde queda la playa más cercana?
+      - ¿Cuál es el significado de la vida?
+      - ¿Puedes ayudarme con mi tarea de matemáticas?
+      - ¿Cuántos kilómetros hay de la Tierra a la Luna?
+      - ¿Qué serie me recomiendas ver?
+      - ¿Cuánto cuesta un pasaje a España?
+      - ¿Cómo se dice "hola" en chino?
+      - ¿Quién fue el primer presidente de Estados Unidos?
+      - ¿Cuánto es 2+2?
+      - ¿Qué equipo de fútbol es mejor?
+      - ¿Cómo se hace un café perfecto?
+      - ¿Cuál es el mejor celular del mercado?
+      - ¿Dónde puedo comprar ropa barata?
+      - ¿Cómo se llama la última canción de Bad Bunny?
+      - ¿Quién es el mejor cantante del mundo?
+      - ¿Cuándo se estrena la próxima temporada de Stranger Things?
