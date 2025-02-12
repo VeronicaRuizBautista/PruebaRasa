@@ -189,6 +189,7 @@ nlu:
       - hay citas o ya no hay?
       - donde se pide la cita con el de psicologia?
       - como me registro pa una consulta de psicologo?
+      - Me siento triste que hago
 
   - intent: citas_psicologicas_gratis
     examples: |
@@ -208,6 +209,9 @@ nlu:
       - ¿Cómo puedo encontrar un horario disponible?
       - citas disponibles
       - citas psicologicas disponibles
+      - Cuando puedo tener mi cita?
+      - ¿Cuándo tengo la oportunidad de tener mi cita?
+      - Que es lo mas pronto posible para una cita psicologica?
 
   - intent: preguntar_seguimiento
     examples: |
@@ -226,6 +230,8 @@ nlu:
       - ¿Qué datos puedo ver en mi nómina descargada?
       - ¿Qué aparece en la tabla del comprobante de nómina?
       - ¿Qué datos incluye mi Solvo ID y el valor neto?
+      - Que dice mi comprobante?
+      - Que contiene mi nomina?
 
   - intent: preguntar_sobre_deducciones
     examples: |
@@ -233,6 +239,9 @@ nlu:
       - ¿Qué significa el aporte a salud en el comprobante?
       - ¿Dónde puedo ver mis aportes a pensión en la nómina?
       - ¿Qué conceptos aparecen como deducciones?
+      - deducciones
+      - Cuanto le restan a mi paga?
+      - Donde puedo ver mis aportes?
 
   - intent: preguntar_sobre_valor_neto
     examples: |
@@ -240,6 +249,11 @@ nlu:
       - ¿Qué es el valor neto que aparece en el comprobante?
       - ¿Cómo sé cuánto me depositaron?
       - ¿Qué significa el valor neto a mi cuenta?
+      - cuanto me pagan?
+      - Cuanto dinero me llega a mi cuenta?
+      - cuanto me pagan en neto?
+      - Cuanto dinero me llega a mi cuenta en neto?
+      - Donde veo el dinero que me llego?
 
   - intent: preguntar_como_revisar_comprobante
     examples: |
@@ -270,6 +284,9 @@ nlu:
       - ¿Puedo enviar mi desprendible por correo?
       - ¿Qué pasos sigo para mandar el comprobante a mi email?
       - ¿Se puede compartir el archivo al correo directamente?
+      - ¿Cómo selecciono un periodo específico de nómina?
+      - ¿Qué pasos sigo para seleccionar un periodo de nómina?
+      - Donde puedo ver comprobantes viejos
 
   - intent: multiple_questions
     examples: |
