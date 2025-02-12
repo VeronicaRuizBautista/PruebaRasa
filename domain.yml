@@ -26,10 +26,14 @@ intents:
 responses:
   utter_greet:
     - text: "¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?"
+    - text: "¡Hola, soy tu chabot de soporte!. ¿Hay algo en lo que pueda ayudarte?"
+    - text: "¡Hola, soy tu bot de soporte!. ¿Tienes alguna inquietud en la que pueda ayudarte?"
 
   utter_goodbye:
     - text: "¡Hasta luego! Si necesitas algo más, no dudes en preguntar."
-
+    - text: "Adiós, que tengas un gran día."
+    - text: "¡Nos vemos! No dudes en volver si tienes más preguntas."
+    
   utter_enviar_requerimiento:
     - text: "Para enviar un requerimiento, accede al CRM, haz clic en Gestión Helpdesk,y selecciona 'Enviar nuevo requerimiento'. Agrega un asunto, selecciona un ítem y agrega una descripción si quieres dar más detalles de tu solicitud. No olvides guardar tu solicitud."
   
