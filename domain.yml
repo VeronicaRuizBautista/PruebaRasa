@@ -81,15 +81,28 @@ responses:
 
   utter_como_revisar_comprobante:
     - text: "Para revisar tu comprobante de pago,entra a Midasoft, ve a 'Mis certificaciones' y haz clic en 'Comprobante de nómina'. Selecciona el periodo que deseas consultar. Luego prodrás descargar el archivo en PDF o enviarlo por correo electrónico."
-  
+    - text: "Para consultar tu comprobante de pago, accede a Midasoft, dirígete a 'Mis certificaciones' y selecciona 'Comprobante de nómina'. Escoge el periodo deseado y podrás descargarlo en PDF o enviarlo por correo."
+    - text: "Si necesitas revisar tu comprobante de nómina, ingresa a Midasoft, ve a 'Mis certificaciones', haz clic en 'Comprobante de nómina' y elige el periodo que quieres consultar. Luego, descárgalo en PDF o envíalo por correo."
+    - text: "Puedes ver tu comprobante de pago en Midasoft. Solo debes ir a 'Mis certificaciones', seleccionar 'Comprobante de nómina', elegir el periodo y descargarlo o enviarlo por correo."
+
   utter_seleccionar_periodo:
     - text: "En 'Mis certificaciones', selecciona el periodo que deseas consultar. Por ejemplo, el primer pago de mayo, y luego descarga o envía el comprobante."
+    - text: "Dentro de 'Mis certificaciones', elige el periodo que deseas revisar, como el primer pago de marzo. Luego, puedes descargar o enviar tu comprobante."
+    - text: "Para ver un periodo específico, entra a 'Mis certificaciones', selecciona el mes que buscas y descarga o envía el comprobante."
+    - text: "Selecciona el periodo que deseas desde la sección 'Mis certificaciones' en Midasoft. Luego, puedes descargar tu comprobante o enviarlo por correo."
 
   utter_pregunta_posterior:
     - text: "¿Hay algo mas en lo que te pueda ayudar?"
-  
+    - text: "¿Necesitas ayuda con algo más?"
+    - text: "¿Hay algo más en lo que pueda asistirte?"
+    - text: "¿Tienes otra consulta en la que pueda ayudarte?"
+
   utter_out_of_scope:
     - text: "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o ser más específico?"
+    - text: "Lo siento, no tengo información sobre eso. ¿Podrías reformular tu pregunta?"
+    - text: "No entiendo tu consulta. ¿Puedes darme más detalles o preguntar de otra manera?"
+    - text: "Parece que no tengo información sobre eso. ¿Podrías explicarlo de otra forma?"
+    - text: "No encontré una respuesta para eso. Intenta ser más específico o reformular tu pregunta."
 
 actions:
   - action_multiple_questions
