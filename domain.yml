@@ -66,18 +66,33 @@ responses:
   
   utter_disponibilidad_de_citas_psicologicas:
     - text: "Las citas se agendan semanalmente. Si no hay disponibilidad, revisa más tarde y permanece pendiente de nuevas aperturas."
+    - text: "Las citas se agendan cada semana. Si no ves disponibilidad en este momento, te recomendamos revisar más tarde para nuevas aperturas."
+    - text: "Las citas se programan semanalmente. Si actualmente no hay cupos, vuelve a intentarlo más tarde cuando se liberen nuevos espacios."
+    - text: "Las citas se abren cada semana. Si no encuentras disponibilidad, revisa nuevamente más tarde para ver si hay nuevos turnos disponibles."
 
   utter_seguimiento:
     - text: "Puedes hacer un seguimiento revisando el estado de tu caso: abierto, sin asignar o cerrado. Ve a CRM, haz clic en Gestión Helpdesk, haz click en enviar nuevo requerimiento y ahi encontras todos tus requerimientos y sus estados."
+    - text: "Para dar seguimiento a tu caso, revisa su estado: abierto, sin asignar o cerrado. Ingresa a CRM, selecciona 'Gestión Helpdesk', haz clic en 'Enviar nuevo requerimiento' y allí verás el estado de todos tus casos."
+    - text: "Puedes hacer seguimiento a tu caso consultando su estado. Accede a CRM, dirígete a 'Gestión Helpdesk', selecciona 'Enviar nuevo requerimiento' y revisa el estado de cada solicitud."
+    - text: "Para conocer el estado de tu requerimiento, entra a CRM, ve a 'Gestión Helpdesk', haz clic en 'Enviar nuevo requerimiento' y revisa si está abierto, sin asignar o cerrado."
 
   utter_informacion_comprobante:
     - text: "El comprobante incluye tu Solvo ID, tu nombre, salario mensual, cargo, cuenta bancaria, conceptos de pago y deducciones, además del valor neto a pagar."
-  
+    - text: "Tu comprobante muestra información como tu Solvo ID, nombre, salario, cargo, cuenta bancaria, detalles de pago y deducciones, así como el valor neto que recibirás."
+    - text: "En el comprobante encontrarás tu Solvo ID, nombre, cargo, salario mensual, cuenta bancaria, conceptos de pago y deducciones, junto con el monto final a pagar."
+    - text: "El comprobante contiene detalles como tu Solvo ID, cargo, salario, cuenta bancaria y todos los conceptos de pago y descuentos aplicados, además del valor neto."
+
   utter_deducciones_comprobante:
     - text: "Las deducciones reflejadas incluyen aportes a salud, pensión u otros conceptos aplicables según tu nómina."
-  
+    - text: "Las deducciones en tu comprobante incluyen descuentos por salud, pensión y otros conceptos que correspondan según tu nómina."
+    - text: "Tu nómina refleja deducciones como aportes a salud, pensión y otros descuentos aplicables."
+    - text: "Las deducciones detalladas en el comprobante corresponden a aportes a salud, pensión y otros conceptos según tu caso."
+
   utter_valor_neto:
     - text: "El valor neto a pagar es el monto que finalmente se te deposita después de aplicar todas las deducciones."
+    - text: "El valor neto es la cantidad final que recibirás en tu cuenta después de aplicar todas las deducciones."
+    - text: "El monto neto a pagar es la cantidad que se deposita tras restar las deducciones de tu salario."
+    - text: "El valor neto representa el dinero que efectivamente recibirás luego de descontar impuestos y otros aportes."
 
   utter_como_revisar_comprobante:
     - text: "Para revisar tu comprobante de pago,entra a Midasoft, ve a 'Mis certificaciones' y haz clic en 'Comprobante de nómina'. Selecciona el periodo que deseas consultar. Luego prodrás descargar el archivo en PDF o enviarlo por correo electrónico."
